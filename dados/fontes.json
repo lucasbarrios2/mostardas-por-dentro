@@ -1,0 +1,874 @@
+[
+  {
+    "id": "f-cadsuas-cmas",
+    "titulo": "Cadastro do Conselho de Assistência Social de Mostardas (CadSUAS)",
+    "emissor": "Governo federal",
+    "tipo": "dados-oficiais",
+    "url": "https://aplicacoes.mds.gov.br/cadsuas/visualizarEntidadeConsultaExterna.html?aba=dados_cadastrais&codigo=52443",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-carta-2026",
+    "titulo": "Carta de Serviços ao Usuário da Câmara (maio de 2026)",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://cm-sites.cittatec.com.br/59/official-publications/2c29abc2d4a0a7745670a9eed1f07186.pdf",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-lom-site",
+    "titulo": "Lei Orgânica: funções da Câmara (transcrição no site da Câmara)",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://mostardas.rs.leg.br/pagina/funcao-e-definicao-da-camara-municipal",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-ouvidoria",
+    "titulo": "Ouvidoria da Câmara de Mostardas",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://cmmostardas.cittaweb.com.br/citta/#/sic/formularioOuvidoria",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-portal-legislativo",
+    "titulo": "Portal legislativo da Câmara de Mostardas",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://cmmostardas.cittatec.com.br/portal-legislativo/proposicoes/consulta",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Projetos, pautas e atas da Câmara",
+      "descricao": "Consulta de proposições, sessões e atas. A página só funciona com JavaScript ativado.",
+      "ordem": 7
+    }
+  },
+  {
+    "id": "f-camara-rel-2025",
+    "titulo": "Relatório de Atividades Legislativas 2025",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.leg.br/publicacao-oficial/relatorio-atividades-legislativas-2025/processo-legislativo/c3f49ab89feb49d783104474b42670c2",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-rgf-2026-1s",
+    "titulo": "Relatório de Gestão Fiscal da Câmara, 1º semestre de 2026",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.leg.br/publicacao-oficial/relatorio-de-gestao-fiscal-2026-primeiro-semestre-2/relatorio-de-gestao-fiscal-2026/07110ebf52226a41bbd211226ec5e0b2",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-ri",
+    "titulo": "Regimento Interno da Câmara (Resolução 18/2025)",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://cm-sites.cittatec.com.br/59/official-publications/feeccd0763a45b7d382bef6117ad1f1c.pdf",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Regimento Interno da Câmara",
+      "descricao": "As regras das sessões, da Tribuna Popular, das audiências e do julgamento das contas.",
+      "ordem": 8
+    }
+  },
+  {
+    "id": "f-camara-tabela-2026",
+    "titulo": "Tabela de padrão remuneratório 2026 da Câmara",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.leg.br/publicacao-oficial/tabelas-de-padrao-remuneratorio-2026/tabela-de-padrao-remuneratorio/ce142588dfdaff2997af0d0d0af02716",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-camara-youtube",
+    "titulo": "Canal da Câmara de Mostardas no YouTube",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.youtube.com/c/C%C3%A2maradeVereadoresdeMostardasRS/streams",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-diario-famurs",
+    "titulo": "Diário Oficial dos Municípios do RS (FAMURS)",
+    "emissor": "FAMURS",
+    "tipo": "ato-oficial",
+    "url": "https://www.diariomunicipal.com.br/famurs/pesquisar?busca_avancada%5B__paper%5D=1&busca_avancada%5BentidadeUsuaria%5D=57452&busca_avancada%5Bnome_orgao%5D=24463",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Diário Oficial",
+      "descricao": "Onde saem as leis, decretos, portarias de nomeação e editais de Mostardas. O link já abre a busca pelas publicações da Prefeitura.",
+      "ordem": 3
+    }
+  },
+  {
+    "id": "f-dom-posse-2025",
+    "titulo": "Termo de posse do prefeito e do vice (Diário Oficial, 2025)",
+    "emissor": "FAMURS",
+    "tipo": "ato-oficial",
+    "url": "https://www.diariomunicipal.com.br/famurs/materia/2DF345D1",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-esic-camara",
+    "titulo": "e-SIC da Câmara de Vereadores de Mostardas",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://cmmostardas.cittaweb.com.br/citta/#/sic/formulario",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-esic-prefeitura",
+    "titulo": "e-SIC da Prefeitura de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/esic",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-fnde-sigpnae",
+    "titulo": "Mandato do Conselho de Alimentação Escolar no FNDE",
+    "emissor": "Governo federal",
+    "tipo": "dados-oficiais",
+    "url": "https://www.fnde.gov.br/sigpnae/api/mandato-conselhos?uf=RS&municipio=431250",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-fnde-siscacs",
+    "titulo": "Cadastro do Conselho do Fundeb de Mostardas no FNDE (SisCACS)",
+    "emissor": "FNDE",
+    "tipo": "dados-oficiais",
+    "url": "https://www.fnde.gov.br/wssiscacs/api/conselhos/situacao-conselho?ente=2&uf=RS&mun=431250",
+    "consultado_em": "2026-10-25",
+    "copia": {
+      "arquivo": "bruto/fnde/siscacs-mostardas.json",
+      "sha256": "1fd6a7931654bebd4609939d9a7c4ac1e42fb4c48fdf3e6ae42de19d5ae743f7"
+    }
+  },
+  {
+    "id": "f-gd-cme-pareceres",
+    "titulo": "Pareceres e resoluções do Conselho Municipal de Educação, 2026",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://drive.google.com/drive/folders/1s0hPXQcyEBqTtNzoU5aijIq5RLHHMC0o",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-gf-cmas-ata-198",
+    "titulo": "Ata 198 do Conselho de Assistência Social (11/03/2026)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://drive.google.com/file/d/1RXz9ao0CGh86rKaAYlBylUol0BXhlyPk",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-gf-comdema-ata-37",
+    "titulo": "Ata 37 do COMDEMA (abril de 2026)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://drive.google.com/file/d/1A_9ZzicffMBblzwmd0AwwYRXC62lq8Se",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-gf-comdema-regimento",
+    "titulo": "Regimento interno do COMDEMA (2025)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://drive.google.com/file/d/1rjU-IXviti9cmHauzSDRRXD5DcYIV-Jc",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-ibge-mostardas",
+    "titulo": "IBGE Cidades: Mostardas",
+    "emissor": "IBGE",
+    "tipo": "dados-oficiais",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/mostardas.html",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-leis-municipais",
+    "titulo": "Leis Municipais de Mostardas (site indicado pela Câmara)",
+    "emissor": "Leis Municipais (empresa privada)",
+    "tipo": "site-oficial",
+    "url": "https://leismunicipais.com.br/prefeitura/rs/mostardas",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Leis municipais",
+      "descricao": "Coleção de leis de Mostardas mantida por uma empresa privada, indicada no site da Câmara. O texto que vale é o publicado no Diário Oficial.",
+      "ordem": 9
+    }
+  },
+  {
+    "id": "f-ouvidoria-prefeitura",
+    "titulo": "Ouvidoria da Prefeitura de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/pagina/view/22",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cacs-portaria",
+    "titulo": "Portaria de composição do Conselho do Fundeb (2023–2026)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/15672",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cae",
+    "titulo": "Página do Conselho de Alimentação Escolar",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/18",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cae-portaria",
+    "titulo": "Portaria de composição do Conselho de Alimentação Escolar",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/15973",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-carta-servicos-2023",
+    "titulo": "Carta de Serviços da Prefeitura (março de 2023)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/uploads/pagina/27561/v6hDiThogvBjT9X1yHAjA1r1qU55nd4K.pdf",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Carta de Serviços da Prefeitura",
+      "descricao": "Lista de serviços e como pedir. A versão publicada é de março de 2023, da gestão anterior.",
+      "ordem": 12
+    }
+  },
+  {
+    "id": "f-pm-cmas",
+    "titulo": "Página do Conselho Municipal de Assistência Social",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/19",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cmdr-2022",
+    "titulo": "Ato do Conselho de Desenvolvimento Rural (09/03/2022)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/12790",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cmdr-lei",
+    "titulo": "Lei 4.159/2020: Conselho de Desenvolvimento Rural",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/8848",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cmdu",
+    "titulo": "Ato de composição do Conselho de Desenvolvimento Urbano",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/28761",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cme",
+    "titulo": "Página do Conselho Municipal de Educação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/23",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cms",
+    "titulo": "Página do Conselho Municipal de Saúde",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/16",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-combea-portaria",
+    "titulo": "Portaria de composição do COMBEA (2026–2028)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/29851",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comdema",
+    "titulo": "Página do Conselho de Defesa do Meio Ambiente (COMDEMA)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/35",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comdema-portaria",
+    "titulo": "Portaria de composição do COMDEMA (2025–2027)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/24264",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comdica",
+    "titulo": "Página do Conselho dos Direitos da Criança e do Adolescente",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/17",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comdica-2023",
+    "titulo": "Portaria de composição do COMDICA (2023)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/16873",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comphac-portaria",
+    "titulo": "Ato de composição do COMPHAC",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/4018",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-compir",
+    "titulo": "Ato de composição do COMPIR (alteração de 26/11/2025)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/26294",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comturc",
+    "titulo": "Página do Conselho de Turismo e Cultura (COMTURC)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/29",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-comturc-portaria",
+    "titulo": "Portaria de composição do COMTURC (2026–2028)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/29068",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-conselhos",
+    "titulo": "Lista de conselhos no site da Prefeitura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento?DepartamentoSearch%5Bid_departamento_categoria%5D=3",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-cras",
+    "titulo": "Página do CRAS",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/servico/view/14/centro-de-referencia-em-assistencia-social-cras",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-ct",
+    "titulo": "Página do Conselho Tutelar",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/servico/view/10",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-ct-eleicao",
+    "titulo": "Notícia sobre a eleição do Conselho Tutelar (2023)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/noticia/view/333",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-ct-homologacao-2023",
+    "titulo": "Homologação da eleição do Conselho Tutelar (Edital 07/2023)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/uploads/noticia/30349/etI8FlH-9XpUQT5x5yl_5dbQb-vnAl2u.pdf",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-escolas",
+    "titulo": "Escolas municipais de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/pagina/view/43/escolas-municipais",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-gabinete",
+    "titulo": "Página do Gabinete do Prefeito",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/5",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-habitacao",
+    "titulo": "Página do Conselho de Habitação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/25",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-idoso-2022",
+    "titulo": "Ato do Conselho da Pessoa Idosa (07/06/2022)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/13703",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-idoso-composicao",
+    "titulo": "Ato de composição do Conselho da Pessoa Idosa",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/13035",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-legislacao",
+    "titulo": "Banco de legislação do site da Prefeitura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/index",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Portarias e atos da Prefeitura",
+      "descricao": "Nomeações e outros atos. Tem portarias até 2026, mas leis e decretos só até 2021.",
+      "ordem": 11
+    }
+  },
+  {
+    "id": "f-pm-lei-2589-2009",
+    "titulo": "Lei 2.589/2009: política municipal de meio ambiente",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/40",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-lei-3751-2018",
+    "titulo": "Lei 3.751/2018: assistência social no município",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/394",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-lei-4203-2021",
+    "titulo": "Lei 4.203/2021: transforma a Chefia de Gabinete em Secretaria Geral de Governo",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/9672",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-lei-4222-2021",
+    "titulo": "Lei Municipal 4.222/2021: Conselho do Fundeb",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/9989",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-lei-organica",
+    "titulo": "Lei Orgânica de Mostardas (consolidada até 07/12/2021)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/uploads/pagina/27474/jOvc_wXm1LFF32BKE0usjXHraGCkh-Yu.pdf",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Lei Orgânica",
+      "descricao": "A \"constituição\" do município: como funcionam a Prefeitura e a Câmara. Versão consolidada até dezembro de 2021.",
+      "ordem": 10
+    }
+  },
+  {
+    "id": "f-pm-noticia-495",
+    "titulo": "Convocação da 7ª Conferência Municipal de Saúde (junho de 2026)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/noticia/view/495",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-organograma",
+    "titulo": "Organograma e lei de estrutura da Prefeitura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/pagina/view/20",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-pcd-2025",
+    "titulo": "Ato do Conselho da Pessoa com Deficiência (26/11/2025)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/27563",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-pcd-portaria",
+    "titulo": "Portaria de composição do Conselho da Pessoa com Deficiência (2025–2027)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/26391",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0001-2025",
+    "titulo": "Portaria 1/2025: nomeia o secretário de Administração",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/23765/portaria-n-0001-de-02-de-janeiro-de-2025",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0001-2026",
+    "titulo": "Portaria 1/2026: nomeia a secretária de Educação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/27668/portaria-n-0001-de-05-de-janeiro-de-2026",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0002-2025",
+    "titulo": "Portaria 2/2025: nomeia a secretária de Saúde",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/23766/portaria-n-0002-de-02-de-janeiro-de-2025",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0004-2025",
+    "titulo": "Portaria 4/2025: nomeia o secretário de Assistência Social",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/23768/portaria-n-0004-de-02-de-janeiro-de-2025",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0029-2026",
+    "titulo": "Portaria 29/2026: nomeia o secretário de Agricultura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/27670/portaria-n-0029-de-05-de-janeiro-de-2026",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0032-2026",
+    "titulo": "Portaria 32/2026: nomeia o secretário de Turismo e Cultura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/27673/portaria-n-0032-de-05-de-janeiro-de-2026",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-0962-2025",
+    "titulo": "Portaria 962/2025: composição do Conselho de Assistência Social",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/24263",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-2295-2025",
+    "titulo": "Portaria 2.295/2025: composição do Conselho Municipal de Saúde",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/26014",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-2320-2026",
+    "titulo": "Portaria 2.320/2026: composição do Conselho Municipal de Educação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/30014",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-2601-2025",
+    "titulo": "Portaria 2.601/2025: designa quem responde pela Secretaria Geral de Governo",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/26363/portaria-n-2601-de-07-de-agosto-de-2025",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-2751-2026",
+    "titulo": "Portaria 2.751/2026: designa quem responde pela Secretaria de Meio Ambiente",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/30811/portaria-n-27512026-de-20-de-julho-de-2026",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-3027-2026",
+    "titulo": "Portaria 3.027/2026: cita o secretário de Obras em exercício",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/31092/portaria-n-30272026-de-31-de-julho-de-2026",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-portaria-995-2024",
+    "titulo": "Portaria 995/2024: nomeia o secretário de Obras",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/20755/portaria-n-995-de-1-de-abril-de-2024",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-previdencia",
+    "titulo": "Página dos conselhos da previdência municipal",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/departamento/view/24",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-previdencia-ata-237",
+    "titulo": "Ata 237 do Conselho de Previdência (17/12/2025)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/documento/view/727",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-previdencia-portaria",
+    "titulo": "Portaria de composição do Conselho de Previdência (2025–2029)",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "ato-oficial",
+    "url": "https://www.mostardas.rs.gov.br/legislacao/view/24242",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-administracao",
+    "titulo": "Página da Secretaria de Administração",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/4",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-agricultura",
+    "titulo": "Página da Secretaria de Agricultura e Desenvolvimento Econômico",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/6",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-assistencia",
+    "titulo": "Página da Secretaria de Assistência Social, Trabalho e Habitação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/7",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-educacao",
+    "titulo": "Página da Secretaria de Educação",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/8",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-financas",
+    "titulo": "Página da Secretaria de Finanças",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/9",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-governo",
+    "titulo": "Página da Secretaria Geral de Governo",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/14",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-meio-ambiente",
+    "titulo": "Página da Secretaria de Meio Ambiente",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/10",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-obras",
+    "titulo": "Página da Secretaria de Obras, Saneamento, Transporte e Trânsito",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/11",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-planejamento",
+    "titulo": "Página da Secretaria de Coordenação e Planejamento",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/12",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-saude",
+    "titulo": "Página da Secretaria de Saúde",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/13",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-sec-turismo",
+    "titulo": "Página da Secretaria de Turismo e Cultura",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/secretaria/view/15",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-pm-unidades-saude",
+    "titulo": "Unidades de saúde de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/pagina/view/42/postos-de-saude-de-mostardas",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-portal-transparencia",
+    "titulo": "Portal da Transparência de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://webapp1-mostardas.cidade360.cloud/pronimtb/",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Portal da Transparência",
+      "descricao": "Receitas, despesas, licitações, contratos e folha de pagamento, da Prefeitura e da Câmara. Em 25/10/2026, o endereço transparencia.mostardas.rs.gov.br não abriu nos nossos testes; o portal abriu por este link, que é o mesmo indicado nos sites oficiais.",
+      "ordem": 2
+    }
+  },
+  {
+    "id": "f-radar-atricon",
+    "titulo": "Radar da Transparência Pública (Atricon)",
+    "emissor": "Atricon e Tribunais de Contas",
+    "tipo": "dados-oficiais",
+    "url": "https://radardatransparencia.atricon.org.br/",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Radar da Transparência Pública",
+      "descricao": "Nota dada pelos Tribunais de Contas aos portais de transparência de prefeituras e câmaras.",
+      "ordem": 6
+    }
+  },
+  {
+    "id": "f-siacs",
+    "titulo": "Cadastro nacional dos Conselhos de Saúde (SIACS)",
+    "emissor": "Governo federal",
+    "tipo": "dados-oficiais",
+    "url": "http://aplicacao.saude.gov.br/siacs/login.jsf",
+    "consultado_em": "2026-10-25"
+  },
+  {
+    "id": "f-siconfi-dca-2025-id",
+    "titulo": "Declaração de Contas Anuais 2025 de Mostardas, Anexo I-D (despesa por natureza)",
+    "emissor": "Tesouro Nacional (SICONFI)",
+    "tipo": "dados-oficiais",
+    "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-D&id_ente=4312500",
+    "consultado_em": "2026-10-25",
+    "copia": {
+      "arquivo": "bruto/siconfi/dca-2025-dca-anexo-i-d.json",
+      "sha256": "cb5c4b82b750434c935a52d2178ced50e18a7915df609db2113312b55da15f65"
+    }
+  },
+  {
+    "id": "f-siconfi-dca-2025-ie",
+    "titulo": "Declaração de Contas Anuais 2025 de Mostardas, Anexo I-E (despesa por função)",
+    "emissor": "Tesouro Nacional (SICONFI)",
+    "tipo": "dados-oficiais",
+    "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-E&id_ente=4312500",
+    "consultado_em": "2026-10-25",
+    "copia": {
+      "arquivo": "bruto/siconfi/dca-2025-dca-anexo-i-e.json",
+      "sha256": "4b8778c4902fe319934566dcaaf1d0492faec83a42b6e666a3155ab2a2d7ee4c"
+    },
+    "documento": {
+      "nome": "Contas enviadas ao Tesouro (SICONFI)",
+      "descricao": "Relatórios oficiais de receitas e despesas que o município entrega ao Tesouro Nacional. Base da seção Quanto custa.",
+      "ordem": 5
+    }
+  },
+  {
+    "id": "f-site-camara",
+    "titulo": "Site oficial da Câmara de Vereadores de Mostardas",
+    "emissor": "Câmara Municipal de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.leg.br/",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Site da Câmara",
+      "descricao": "Vereadores, sessões, projetos e legislação.",
+      "ordem": 4
+    }
+  },
+  {
+    "id": "f-site-prefeitura",
+    "titulo": "Site oficial da Prefeitura de Mostardas",
+    "emissor": "Prefeitura de Mostardas",
+    "tipo": "site-oficial",
+    "url": "https://www.mostardas.rs.gov.br/",
+    "consultado_em": "2026-10-25",
+    "documento": {
+      "nome": "Site da Prefeitura",
+      "descricao": "Secretarias, serviços, notícias e links oficiais.",
+      "ordem": 1
+    }
+  },
+  {
+    "id": "f-tse-prefeito-2024",
+    "titulo": "Resultado oficial da eleição de prefeito em Mostardas, 2024",
+    "emissor": "Tribunal Superior Eleitoral",
+    "tipo": "dados-oficiais",
+    "url": "https://resultados.tse.jus.br/oficial/ele2024/619/dados/rs/rs87513-c0011-e000619-u.json",
+    "consultado_em": "2026-10-25",
+    "copia": {
+      "arquivo": "bruto/tse/2024-prefeito-mostardas.json",
+      "sha256": "7cf97e8e8805bdbb22e2475a7af8135ff25308b5ea807662bd17426255ed382d"
+    }
+  },
+  {
+    "id": "f-tse-vereador-2024",
+    "titulo": "Resultado oficial da eleição de vereador em Mostardas, 2024",
+    "emissor": "Tribunal Superior Eleitoral",
+    "tipo": "dados-oficiais",
+    "url": "https://resultados.tse.jus.br/oficial/ele2024/619/dados/rs/rs87513-c0013-e000619-u.json",
+    "consultado_em": "2026-10-25",
+    "copia": {
+      "arquivo": "bruto/tse/2024-vereador-mostardas.json",
+      "sha256": "5916a2b78bfe03cec9eaf012f04928b8c78a280dc3c0f94f6cd5d10e561e1f14"
+    }
+  }
+]

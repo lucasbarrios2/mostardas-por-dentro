@@ -1,0 +1,242 @@
+{
+  "grupos": [
+    {
+      "id": "executivo-eleito",
+      "ordem": 1,
+      "titulo": "Prefeito e vice-prefeito",
+      "como": "Eleitos pelo voto em 2024 · mandato 2025–2028",
+      "o_que_faz": "Governam o município, decidem as prioridades e administram o orçamento."
+    },
+    {
+      "id": "vereadores",
+      "ordem": 2,
+      "titulo": "Vereadores",
+      "como": "Eleitos pelo voto em 2024 · mandato 2025–2028",
+      "o_que_faz": "Fazem as leis, aprovam o orçamento, fiscalizam a Prefeitura e julgam as contas do prefeito.",
+      "por_que": {
+        "texto": "A Constituição limita a 9 o número de vereadores em municípios com até 15 mil habitantes, e Mostardas tem cerca de 12 mil. Eles são eleitos pelo voto direto, como o prefeito.",
+        "normas": [
+          "cf-29-iv-a"
+        ]
+      }
+    },
+    {
+      "id": "secretarios",
+      "ordem": 3,
+      "titulo": "Secretários municipais",
+      "como": "Escolhidos e nomeados pelo prefeito",
+      "o_que_faz": "Comandam cada área, como saúde, educação e obras. O prefeito pode trocá-los a qualquer momento.",
+      "por_que": {
+        "texto": "São cargos em comissão, de livre nomeação: o prefeito escolhe a equipe e pode trocá-la a qualquer momento.",
+        "normas": [
+          "cf-37-ii"
+        ]
+      },
+      "contar": "pessoas"
+    },
+    {
+      "id": "conselheiros-tutelares",
+      "ordem": 4,
+      "titulo": "Conselheiros tutelares",
+      "como": "Eleitos pela comunidade em 01/10/2023 · mandato de 10/01/2024 a 10/01/2028",
+      "o_que_faz": "Atendem crianças e adolescentes com direitos ameaçados ou violados e aplicam as medidas de proteção previstas no Estatuto."
+    },
+    {
+      "id": "conselheiros-municipais",
+      "ordem": 5,
+      "titulo": "Conselheiros municipais",
+      "numero_rotulo": "Vários",
+      "como": "Indicados pelo governo e por entidades da sociedade",
+      "o_que_faz": "Acompanham as políticas e o dinheiro de cada área. Os de saúde e do Fundeb, por exemplo, analisam as prestações de contas.",
+      "por_que": {
+        "texto": "Vários conselhos são exigidos por lei federal, e alguns são condição para o município receber dinheiro da União, como os de saúde e de assistência social.",
+        "normas": [
+          "l8142-4",
+          "loas-30"
+        ]
+      }
+    },
+    {
+      "id": "servidores",
+      "ordem": 6,
+      "titulo": "Servidores públicos",
+      "numero_rotulo": "—",
+      "como": "Concurso público ou contrato temporário",
+      "o_que_faz": "Fazem os serviços do dia a dia: atendem no posto de saúde, dão aula, cuidam das estradas."
+    }
+  ],
+  "cargos": [
+    {
+      "id": "prefeito",
+      "orgao": "prefeitura",
+      "nome": "Prefeito",
+      "vagas": 1,
+      "provimento": "eleicao-direta",
+      "grupo": "executivo-eleito"
+    },
+    {
+      "id": "vice-prefeito",
+      "orgao": "prefeitura",
+      "nome": "Vice-prefeito",
+      "vagas": 1,
+      "provimento": "eleicao-direta",
+      "grupo": "executivo-eleito"
+    },
+    {
+      "id": "vereador",
+      "orgao": "camara",
+      "nome": "Vereador",
+      "vagas": 9,
+      "provimento": "eleicao-direta",
+      "grupo": "vereadores",
+      "remuneracao": {
+        "texto": "R$ 7.076,97 por mês em 2026. O presidente da Câmara recebe R$ 10.605,73.",
+        "fonte": "f-camara-tabela-2026"
+      }
+    },
+    {
+      "id": "presidente-camara",
+      "orgao": "camara",
+      "nome": "Presidente",
+      "vagas": 1,
+      "provimento": "eleicao-interna"
+    },
+    {
+      "id": "vice-presidente-camara",
+      "orgao": "camara",
+      "nome": "Vice-presidente",
+      "vagas": 1,
+      "provimento": "eleicao-interna"
+    },
+    {
+      "id": "secretario-mesa-camara",
+      "orgao": "camara",
+      "nome": "1º secretário",
+      "vagas": 1,
+      "provimento": "eleicao-interna"
+    },
+    {
+      "id": "conselheiro-tutelar",
+      "orgao": "conselho-tutelar",
+      "nome": "Conselheiro tutelar",
+      "vagas": 5,
+      "provimento": "eleicao-comunitaria",
+      "grupo": "conselheiros-tutelares"
+    },
+    {
+      "id": "conselheiro-municipal",
+      "orgao": null,
+      "nome": "Conselheiro municipal",
+      "vagas": null,
+      "provimento": "indicacao",
+      "grupo": "conselheiros-municipais"
+    },
+    {
+      "id": "servidor",
+      "orgao": null,
+      "nome": "Servidor público",
+      "vagas": null,
+      "provimento": "concurso",
+      "grupo": "servidores"
+    },
+    {
+      "id": "titular-sec-saude",
+      "orgao": "sec-saude",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-educacao",
+      "orgao": "sec-educacao",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-assistencia-social",
+      "orgao": "sec-assistencia-social",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-obras",
+      "orgao": "sec-obras",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-agricultura",
+      "orgao": "sec-agricultura",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-meio-ambiente",
+      "orgao": "sec-meio-ambiente",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-turismo-cultura",
+      "orgao": "sec-turismo-cultura",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-administracao",
+      "orgao": "sec-administracao",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-financas",
+      "orgao": "sec-financas",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-planejamento",
+      "orgao": "sec-planejamento",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    },
+    {
+      "id": "titular-sec-governo",
+      "orgao": "sec-governo",
+      "nome": "Secretário(a)",
+      "vagas": 1,
+      "provimento": "nomeacao-livre",
+      "grupo": "secretarios",
+      "titular": true
+    }
+  ]
+}

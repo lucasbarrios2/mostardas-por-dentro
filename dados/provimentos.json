@@ -1,0 +1,47 @@
+[
+  {
+    "id": "eleicao-direta",
+    "nome": "Eleição direta",
+    "explica": "Escolhido pelo voto dos eleitores do município.",
+    "normas": [
+      "cf-29-i"
+    ]
+  },
+  {
+    "id": "nomeacao-livre",
+    "nome": "Nomeação pelo prefeito",
+    "explica": "Nomeado pelo prefeito para cargo em comissão, que ele pode trocar a qualquer momento.",
+    "normas": [
+      "cf-37-ii"
+    ]
+  },
+  {
+    "id": "eleicao-comunitaria",
+    "nome": "Eleição pela comunidade",
+    "explica": "Escolhido pela população em votação unificada no país.",
+    "normas": [
+      "eca-132",
+      "eca-139"
+    ]
+  },
+  {
+    "id": "eleicao-interna",
+    "nome": "Eleição entre os vereadores",
+    "explica": "Os vereadores escolhem entre si quem compõe a Mesa Diretora, pelas regras do Regimento Interno da Câmara.",
+    "normas": []
+  },
+  {
+    "id": "concurso",
+    "nome": "Concurso público",
+    "explica": "Aprovação em concurso, com as exceções previstas na Constituição.",
+    "normas": [
+      "cf-37-ii"
+    ]
+  },
+  {
+    "id": "indicacao",
+    "nome": "Indicação do governo e de entidades",
+    "explica": "Membros indicados pelo governo e por entidades da sociedade civil, conforme a lei de cada conselho.",
+    "normas": []
+  }
+]

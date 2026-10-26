@@ -1,0 +1,235 @@
+[
+  {
+    "orgao": "camara",
+    "valido_desde": "2026-05-01",
+    "endereco": "Atendimento provisório na Rua Bento Gonçalves, 770, Centro, enquanto a sede (Rua XV de Novembro, 648, Calçadão Chico Pedro) está em reforma",
+    "telefone": "(51) 2197-0307 · WhatsApp (51) 99939-2786",
+    "email": "atendimento@mostardas.rs.leg.br",
+    "horario": "Segunda a sexta, 8h às 11h30 e 13h às 16h30",
+    "fonte": "f-camara-carta-2026",
+    "conferido_em": "2026-10-25",
+    "canais": [
+      {
+        "tipo": "e-sic",
+        "rotulo": "e-SIC da Câmara",
+        "url": "https://cmmostardas.cittaweb.com.br/citta/#/sic/formulario",
+        "fonte": "f-esic-camara"
+      },
+      {
+        "tipo": "ouvidoria",
+        "rotulo": "Ouvidoria da Câmara",
+        "url": "https://cmmostardas.cittaweb.com.br/citta/#/sic/formularioOuvidoria",
+        "fonte": "f-camara-ouvidoria"
+      },
+      {
+        "tipo": "transmissao",
+        "rotulo": "Canal da Câmara no YouTube",
+        "url": "https://www.youtube.com/c/C%C3%A2maradeVereadoresdeMostardasRS/streams",
+        "fonte": "f-camara-youtube"
+      }
+    ]
+  },
+  {
+    "orgao": "conselho-tutelar",
+    "endereco": "Rua Independência, 781, Centro",
+    "telefone": "(51) 3673-1344 · (51) 99701-1717",
+    "email": "conselhotutelarmostardas@hotmail.com",
+    "horario": null,
+    "fonte": "f-pm-ct",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "cons-saude",
+    "endereco": "Rua Ana Amália Leite, 406, anexo do Centro Comunitário (sala do CMS)",
+    "telefone": "(51) 3673-1571",
+    "email": "cmsmostardas@gmail.com",
+    "horario": null,
+    "fonte": "f-pm-cms",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "cons-educacao",
+    "endereco": "Secretaria de Educação, Rua Independência, 761",
+    "telefone": "(51) 3673-1500 (ramal do CME)",
+    "email": "cme.mostardas@gmail.com",
+    "horario": null,
+    "fonte": "f-pm-cme",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "cons-assistencia",
+    "endereco": "Prédio do CRAS, Rua Ana Amália Leite, 205 (o cadastro federal indica o número 406)",
+    "telefone": "(51) 3673-1010 · (51) 3673-1004",
+    "email": "cmasmostardas@gmail.com",
+    "horario": null,
+    "fonte": "f-pm-cmas",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "comdica",
+    "endereco": null,
+    "telefone": "(51) 3673-1010 · (51) 3673-1004 (Secretaria de Assistência Social)",
+    "email": null,
+    "horario": null,
+    "fonte": "f-pm-comdica",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "cacs-fundeb",
+    "endereco": null,
+    "telefone": "(51) 3673-1500",
+    "email": "cacsfundeb@mostardas.rs.gov.br",
+    "horario": null,
+    "fonte": "f-fnde-siscacs",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "cae",
+    "endereco": null,
+    "telefone": "(51) 3673-1500 · (51) 3673-2030",
+    "email": "educacao@mostardas.rs.gov.br",
+    "horario": null,
+    "fonte": "f-pm-cae",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "comdema",
+    "endereco": null,
+    "telefone": "(51) 3673-1166",
+    "email": "comdemamostardas@gmail.com",
+    "horario": null,
+    "fonte": "f-pm-comdema",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "prefeitura",
+    "endereco": "Rua Bento Gonçalves, 1020, Centro",
+    "telefone": "0800 111 1166 · (51) 3673-1166",
+    "email": "conexaodireta@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h, segundo o site. A Ouvidoria e o Portal da Transparência informam 8h às 11h30 e 13h às 16h30.",
+    "fonte": "f-site-prefeitura",
+    "conferido_em": "2026-10-25",
+    "canais": [
+      {
+        "tipo": "e-sic",
+        "rotulo": "e-SIC da Prefeitura",
+        "url": "https://www.mostardas.rs.gov.br/esic",
+        "fonte": "f-esic-prefeitura"
+      },
+      {
+        "tipo": "ouvidoria",
+        "rotulo": "Ouvidoria da Prefeitura",
+        "url": "https://www.mostardas.rs.gov.br/pagina/view/22",
+        "fonte": "f-ouvidoria-prefeitura"
+      }
+    ]
+  },
+  {
+    "orgao": "gabinete",
+    "endereco": "Rua Bento Gonçalves, 1020",
+    "telefone": "0800 111 1166, ramal 210",
+    "email": "gabinete@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-gabinete",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-administracao",
+    "endereco": "Rua Bento Gonçalves, 1020",
+    "telefone": "0800 111 1166, ramais 235 (RH) e 240 (licitações) · (51) 99865-7263",
+    "email": "administracao@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-administracao",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-agricultura",
+    "endereco": "Rua Independência, 91",
+    "telefone": "0800 111 1166, ramal 281",
+    "email": "agricultura@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-agricultura",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-assistencia-social",
+    "endereco": "Rua Ana Amália Leite, 406",
+    "telefone": "0800 111 1166, ramais 248 (recepção) e 209 (CRAS) · (51) 99766-1049 · CRAS: (51) 3673-1010",
+    "email": "crasmostardas@gmail.com",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-assistencia",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-educacao",
+    "endereco": "Rua Independência, 761",
+    "telefone": "0800 111 1166, ramal 255",
+    "email": "educacao@mostardas.rs.gov.br",
+    "horario": "Segunda e terça, 8h às 11h30 e 13h às 16h30; quarta a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-educacao",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-financas",
+    "endereco": "Rua Bento Gonçalves, 1020",
+    "telefone": "0800 111 1166, ramal 218 · (51) 99764-1936",
+    "email": "financas@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h; a tesouraria fecha meia hora antes",
+    "fonte": "f-pm-sec-financas",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-governo",
+    "endereco": "Rua Bento Gonçalves, 976",
+    "telefone": "0800 111 1166, ramal 233",
+    "email": "gabinete@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-governo",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-meio-ambiente",
+    "endereco": "Rua Bento Gonçalves, 976",
+    "telefone": "0800 111 1166, ramal 204 · (51) 99170-8381",
+    "email": "semma@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-meio-ambiente",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-obras",
+    "endereco": "Rua Independência, 91",
+    "telefone": "0800 111 1166, ramal 275 · (51) 99865-7270",
+    "email": "obrasmostardas18@gmail.com",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-obras",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-planejamento",
+    "endereco": "Rua Bento Gonçalves, 976",
+    "telefone": "0800 111 1166, ramal 212 · (51) 99865-7264",
+    "email": "seplan@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-planejamento",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-saude",
+    "endereco": "Rua Ana Amália Leite, 406",
+    "telefone": "0800 001 1571, ramal 295 · marcação de consultas: (51) 3673-2034",
+    "email": "saude@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-saude",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "orgao": "sec-turismo-cultura",
+    "endereco": "Avenida Padre Simão, 305 (Ginásio de Esportes)",
+    "telefone": "0800 111 1166, ramal 270 · (51) 98053-6569",
+    "email": "turismo@mostardas.rs.gov.br",
+    "horario": "Segunda a sexta, 7h às 13h",
+    "fonte": "f-pm-sec-turismo",
+    "conferido_em": "2026-10-25"
+  }
+]

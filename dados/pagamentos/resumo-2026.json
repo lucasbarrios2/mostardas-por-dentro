@@ -1,0 +1,649 @@
+{
+  "ano": 2026,
+  "periodo": {
+    "inicio": "2026-01-06",
+    "fim": "2026-02-27"
+  },
+  "ultimo_mes_enviado": 2,
+  "totais": {
+    "prefeitura": {
+      "empenhado": 38282050.4,
+      "liquidado": 18948540.69,
+      "pago": 17142448.16
+    },
+    "camara": {
+      "empenhado": 761304.39,
+      "liquidado": 450672.33,
+      "pago": 385900.16
+    }
+  },
+  "por_funcao": [
+    {
+      "funcao": "Saúde",
+      "pago": 4034830.95
+    },
+    {
+      "funcao": "Educação",
+      "pago": 3682027.97
+    },
+    {
+      "funcao": "Encargos Especiais",
+      "pago": 3275568.59
+    },
+    {
+      "funcao": "Administração",
+      "pago": 2869238.48
+    },
+    {
+      "funcao": "Saneamento",
+      "pago": 1113448.81
+    },
+    {
+      "funcao": "Urbanismo",
+      "pago": 765727.3
+    },
+    {
+      "funcao": "Transporte",
+      "pago": 630091.7
+    },
+    {
+      "funcao": "Assistência Social",
+      "pago": 436932.21
+    },
+    {
+      "funcao": "Legislativa",
+      "pago": 385900.16
+    },
+    {
+      "funcao": "Gestão Ambiental",
+      "pago": 100335.33
+    },
+    {
+      "funcao": "Agricultura",
+      "pago": 97613.92
+    },
+    {
+      "funcao": "Desporto e Lazer",
+      "pago": 57731.14
+    },
+    {
+      "funcao": "Comércio e Serviços",
+      "pago": 53117.96
+    },
+    {
+      "funcao": "Cultura",
+      "pago": 25783.8
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2024-03",
+      "pago": 850.71
+    },
+    {
+      "mes": "2024-04",
+      "pago": 45982.62
+    },
+    {
+      "mes": "2024-09",
+      "pago": 10080.0
+    },
+    {
+      "mes": "2025-01",
+      "pago": 58377.07
+    },
+    {
+      "mes": "2025-02",
+      "pago": 98499.88
+    },
+    {
+      "mes": "2025-03",
+      "pago": 123075.61
+    },
+    {
+      "mes": "2025-04",
+      "pago": 155284.06
+    },
+    {
+      "mes": "2025-05",
+      "pago": 165091.06
+    },
+    {
+      "mes": "2025-06",
+      "pago": 201183.08
+    },
+    {
+      "mes": "2025-07",
+      "pago": 302904.41
+    },
+    {
+      "mes": "2025-08",
+      "pago": 244962.24
+    },
+    {
+      "mes": "2025-09",
+      "pago": 377130.31
+    },
+    {
+      "mes": "2025-10",
+      "pago": 522136.13
+    },
+    {
+      "mes": "2025-11",
+      "pago": 534591.33
+    },
+    {
+      "mes": "2025-12",
+      "pago": 1035423.79
+    },
+    {
+      "mes": "2026-01",
+      "pago": 7354783.81
+    },
+    {
+      "mes": "2026-02",
+      "pago": 6297992.21
+    }
+  ],
+  "folha": [
+    {
+      "nome": "Folha dos servidores ativos",
+      "pago": 5459017.49
+    },
+    {
+      "nome": "Folha dos aposentados",
+      "pago": 1934527.1
+    },
+    {
+      "nome": "Contribuição ao IPE",
+      "pago": 207514.54
+    },
+    {
+      "nome": "Folha dos pensionistas",
+      "pago": 150948.18
+    },
+    {
+      "nome": "Contribuição ao INSS",
+      "pago": 112062.31
+    },
+    {
+      "nome": "Depósitos de FGTS",
+      "pago": 8556.23
+    }
+  ],
+  "credores": [
+    {
+      "nome": "RPPS - REGIME PROPRIO DE PREVIDENCIA SOCIAL",
+      "cnpj": "00.000.000/0000-00",
+      "pago": 1611079.87,
+      "n": 280,
+      "funcoes": [
+        "Administração",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "CAIXA ECONOMICA FEDERAL -MOSTARDAS",
+      "cnpj": "00.360.305/4426-38",
+      "pago": 1023708.3,
+      "n": 37,
+      "funcoes": [
+        "Encargos Especiais",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "NEO CONSULTORIA E ADMINISTRACAO DE BENEFICIOS EIRE",
+      "cnpj": "25.165.749/0001-10",
+      "pago": 865499.73,
+      "n": 108,
+      "funcoes": [
+        "Saúde",
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "PHENIX SOLUCOES LTDA",
+      "cnpj": "10.439.655/0001-14",
+      "pago": 609909.63,
+      "n": 86,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "CEEE DISTRIBUICAO",
+      "cnpj": "08.467.115/0001-00",
+      "pago": 396647.01,
+      "n": 98,
+      "funcoes": [
+        "Urbanismo",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "SOC.BENEFIC.SAO LUIZ DE MOSTARDAS",
+      "cnpj": "90.604.414/0001-12",
+      "pago": 344166.66,
+      "n": 4,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "COSTA CARDOZO- EDIFICACOES E SERVICOS LTDA",
+      "cnpj": "04.833.161/0001-17",
+      "pago": 280387.4,
+      "n": 4,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "RAC RS AMBIENTAL LTDA",
+      "cnpj": "55.478.884/0001-86",
+      "pago": 230195.72,
+      "n": 22,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "FAT FUNDO DE AMPARO AO TRABALHADOR - PASEP",
+      "cnpj": "07.526.983/0001-43",
+      "pago": 208314.52,
+      "n": 87,
+      "funcoes": [
+        "Encargos Especiais"
+      ]
+    },
+    {
+      "nome": "M.R. MACHADO FISOTERAPIA",
+      "cnpj": "40.751.264/0001-00",
+      "pago": 185379.63,
+      "n": 28,
+      "funcoes": [
+        "Saúde",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "VEROCHEQUE REFEICOES LTDA",
+      "cnpj": "06.344.497/0001-41",
+      "pago": 170979.95,
+      "n": 8,
+      "funcoes": [
+        "Educação",
+        "Administração"
+      ]
+    },
+    {
+      "nome": "RURAL RENTAL SERVICE LTDA",
+      "cnpj": "93.969.707/0001-91",
+      "pago": 162848.86,
+      "n": 34,
+      "funcoes": [
+        "Saúde",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "VANTUR VIAGENS LTDA",
+      "cnpj": "20.598.596/0001-80",
+      "pago": 155211.76,
+      "n": 18,
+      "funcoes": [
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "ULTRA AIR COMERCIO DE GASES INDUSTRIAIS E MEDICINA",
+      "cnpj": "15.158.729/0001-68",
+      "pago": 149127.76,
+      "n": 91,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "METROCIL- EMPRESA DE CADASTRO IMOBILIARIO LTDA.",
+      "cnpj": "01.427.781/0001-68",
+      "pago": 137136.37,
+      "n": 12,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "ADRIEL PEREIRA DE ARAUJO",
+      "cnpj": "07.051.422/0001-35",
+      "pago": 133552.9,
+      "n": 13,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "I D SERVICOS E EMPREENDIMENTOS LTDA",
+      "cnpj": "23.300.255/0001-75",
+      "pago": 128915.56,
+      "n": 20,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "MORAES LOCACAO DE EQUIPAMENTOS LTDA",
+      "cnpj": "03.809.629/0001-75",
+      "pago": 120175.81,
+      "n": 16,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "FUNDATEC-FUND. UNIVERSIDADE EMP. DE TEC. E CIENCIA",
+      "cnpj": "87.878.476/0001-08",
+      "pago": 107367.74,
+      "n": 6,
+      "funcoes": [
+        "Administração"
+      ]
+    },
+    {
+      "nome": "EXPRESSO PALMARES TURISMO LTDA.",
+      "cnpj": "92.769.470/0001-32",
+      "pago": 106541.25,
+      "n": 36,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "TECPRINTERS TECNOLOGIA DE IMPRESSAO LTDA",
+      "cnpj": "00.809.489/0001-47",
+      "pago": 99890.13,
+      "n": 259,
+      "funcoes": [
+        "Educação",
+        "Administração"
+      ]
+    },
+    {
+      "nome": "ASSOCIACAO COMUNITARIA MORADA DA LIBERDADE",
+      "cnpj": "21.511.452/0003-70",
+      "pago": 90100.0,
+      "n": 8,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "RPPS - PARCELAMENTO",
+      "cnpj": "11.405.829/0001-90",
+      "pago": 72154.34,
+      "n": 2,
+      "funcoes": [
+        "Encargos Especiais"
+      ]
+    },
+    {
+      "nome": "TSC TRANSPORTE ESCOLAR EIRELI",
+      "cnpj": "29.856.642/0001-79",
+      "pago": 65880.0,
+      "n": 12,
+      "funcoes": [
+        "Educação"
+      ]
+    },
+    {
+      "nome": "NEWBAN EVENTOS LTDA",
+      "cnpj": "50.586.402/0001-98",
+      "pago": 56874.7,
+      "n": 4,
+      "funcoes": [
+        "Desporto e Lazer"
+      ]
+    },
+    {
+      "nome": "FGRPS FUNDO DO REGIME GERAL DE PREVIDENCIA SOCIAL",
+      "cnpj": "16.727.230/0001-97",
+      "pago": 50487.24,
+      "n": 17,
+      "funcoes": [
+        "Administração"
+      ]
+    },
+    {
+      "nome": "ATITUDE S CONSTRUCOES E EDIFICACOES LTDA - ME",
+      "cnpj": "11.171.143/0001-82",
+      "pago": 46833.33,
+      "n": 3,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "MASPER ASSESSORIA LTDA",
+      "cnpj": "08.402.772/0001-61",
+      "pago": 45600.0,
+      "n": 24,
+      "funcoes": [
+        "Administração"
+      ]
+    },
+    {
+      "nome": "RICARDO FORNARI SERVICOS MEDICOS LTDA",
+      "cnpj": "46.655.579/0001-21",
+      "pago": 44832.47,
+      "n": 15,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "LABORATORIO MOSTARDAS",
+      "cnpj": "92.098.821/0001-20",
+      "pago": 44028.27,
+      "n": 13,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "RZ MECANICA DIESEL COMERCIO E SERVICOS LTDA",
+      "cnpj": "52.633.167/0001-93",
+      "pago": 44006.7,
+      "n": 12,
+      "funcoes": [
+        "Transporte",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "NELCAR PECAS E SERV. AUTOMOTIVOS LTDA-ME",
+      "cnpj": "07.607.806/0001-91",
+      "pago": 43145.0,
+      "n": 11,
+      "funcoes": [
+        "Educação",
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "G. N. FOODS COM E TRANSPORTES DE RACOES LTDA",
+      "cnpj": "43.564.314/0001-20",
+      "pago": 42336.0,
+      "n": 10,
+      "funcoes": [
+        "Gestão Ambiental"
+      ]
+    },
+    {
+      "nome": "ADMAR SOARES DO AMARAL - ME",
+      "cnpj": "09.320.421/0001-74",
+      "pago": 39344.0,
+      "n": 19,
+      "funcoes": [
+        "Educação",
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "ALTERMED MATERIAL MEDICO HOSPITALAR LTDA",
+      "cnpj": "00.802.002/0001-02",
+      "pago": 37734.6,
+      "n": 7,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "LEANDRO BANDAS BRAGA - ***.147.650-**",
+      "cnpj": "36.114.628/0001-65",
+      "pago": 37639.69,
+      "n": 6,
+      "funcoes": [
+        "Transporte",
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "SC COMERCIO DE PNEUS LTDA",
+      "cnpj": "37.952.262/0001-66",
+      "pago": 35136.0,
+      "n": 2,
+      "funcoes": [
+        "Educação"
+      ]
+    },
+    {
+      "nome": "KF SOLUCOES AMBIENTAIS LTDA",
+      "cnpj": "11.301.741/0001-29",
+      "pago": 34324.07,
+      "n": 27,
+      "funcoes": [
+        "Educação",
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "GOVERNANCABRASIL S/A TECNOLOGIA E GESTAO EM SERVIC",
+      "cnpj": "00.165.960/0001-01",
+      "pago": 33392.42,
+      "n": 18,
+      "funcoes": [
+        "Administração",
+        "Gestão Ambiental"
+      ]
+    },
+    {
+      "nome": "ECT-EMPRESA CORREIOS E TELEGRAFOS",
+      "cnpj": "34.028.316/0001-03",
+      "pago": 33380.67,
+      "n": 17,
+      "funcoes": [
+        "Administração",
+        "Legislativa"
+      ]
+    }
+  ],
+  "n_credores": 213,
+  "pessoas_fisicas": [
+    {
+      "tipo": "Diarias no pais - servidores",
+      "pago": 163042.15,
+      "n": 2219
+    },
+    {
+      "tipo": "Locacao de imoveis",
+      "pago": 112770.25,
+      "n": 86
+    },
+    {
+      "tipo": "Auxilio a pessoas fisicas",
+      "pago": 76736.0,
+      "n": 56
+    },
+    {
+      "tipo": "Material de consumo - pagamento antecipado",
+      "pago": 25802.28,
+      "n": 19
+    },
+    {
+      "tipo": "Outros serv.de terceiros pj - pagamento antecipado",
+      "pago": 20801.0,
+      "n": 17
+    },
+    {
+      "tipo": "Servicos de assistencia social",
+      "pago": 17625.0,
+      "n": 23
+    },
+    {
+      "tipo": "Diarias no pais- agentes politicos",
+      "pago": 7933.47,
+      "n": 59
+    },
+    {
+      "tipo": "Outras diarias - vereadores",
+      "pago": 6550.0,
+      "n": 6
+    },
+    {
+      "tipo": "Pensoes especiais",
+      "pago": 2161.32,
+      "n": 2
+    },
+    {
+      "tipo": "Outras premiacoes",
+      "pago": 1914.29,
+      "n": 4
+    },
+    {
+      "tipo": "Equipamento e material permanente - pagamento antecipado",
+      "pago": 1500.0,
+      "n": 1
+    },
+    {
+      "tipo": "Servicos de t.i.c. - pagamento antecipado",
+      "pago": 1055.0,
+      "n": 3
+    },
+    {
+      "tipo": "Indenizacoes e restituicoes",
+      "pago": 1011.79,
+      "n": 2
+    },
+    {
+      "tipo": "Diarias pais - conselheiros tutelares",
+      "pago": 889.42,
+      "n": 11
+    },
+    {
+      "tipo": "Ressarcimento de passagens e desp.c/locomocao",
+      "pago": 801.87,
+      "n": 8
+    },
+    {
+      "tipo": "Remuneracao dos integrantes das jaris",
+      "pago": 136.8,
+      "n": 1
+    }
+  ],
+  "fonte": {
+    "id": "f-tce-empenhos-2026",
+    "titulo": "Despesa por empenhos 2026: Prefeitura e Câmara de Mostardas",
+    "emissor": "TCE-RS (dados informados pelo próprio órgão)",
+    "tipo": "dados-oficiais",
+    "url": "https://dados.tce.rs.gov.br/dataset/despesa-orcamentaria-por-empenhos-2026",
+    "consultado_em": "2026-10-26",
+    "copia": {
+      "url": "https://dados.tce.rs.gov.br/dados/municipal/empenhos/2026.csv.zip",
+      "last_modified": "Sun, 04 Oct 2026 09:06:19 GMT",
+      "arquivo": "bruto/tce-rs/empenhos/mostardas-2026.csv.gz",
+      "sha256_filtrado": "9b02757f95fd4477cae0039cb9cc2f24d9e1099962807d6f5160b3cc74201645",
+      "coletado_em": "2026-10-26"
+    }
+  }
+}

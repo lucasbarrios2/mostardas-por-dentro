@@ -1,0 +1,9 @@
+{
+  "id": "f-cnpj-receita",
+  "titulo": "Cadastro Nacional da Pessoa Jurídica (Receita Federal), consultado pelo Minha Receita",
+  "emissor": "Receita Federal, pelo espelho aberto minhareceita.org",
+  "tipo": "dados-oficiais",
+  "url": "https://minhareceita.org/",
+  "consultado_em": "2026-10-26",
+  "empresas": 1244
+}

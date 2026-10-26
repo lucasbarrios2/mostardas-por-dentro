@@ -1,0 +1,35 @@
+{
+  "ibge": "4312500",
+  "nome": "Mostardas",
+  "uf": "RS",
+  "populacao": [
+    {
+      "ano": 2022,
+      "valor": 12090,
+      "tipo": "censo",
+      "fonte": "f-ibge-mostardas",
+      "conferido_em": "2026-10-25"
+    },
+    {
+      "ano": 2025,
+      "valor": 12347,
+      "tipo": "estimativa",
+      "fonte": "f-ibge-mostardas",
+      "conferido_em": "2026-10-25"
+    }
+  ],
+  "area_km2": {
+    "valor": 1977.442,
+    "fonte": "f-ibge-mostardas",
+    "conferido_em": "2026-10-25"
+  },
+  "conselhos_nao_encontrados": [
+    "Cultura (o tema está no Conselho de Turismo e Cultura)",
+    "Segurança Alimentar"
+  ],
+  "conselhos_so_lei": [
+    "COMUDE (Lei 1.775/2003; última diretoria nomeada em 2018)",
+    "Conselho de Trânsito (Lei 1.720/2003; nenhum ato encontrado)",
+    "conselho do FUNREBOM (Lei 2.241/2007; último ato em 2022)"
+  ]
+}

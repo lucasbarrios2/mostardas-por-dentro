@@ -1,0 +1,697 @@
+[
+  {
+    "id": "prefeitura",
+    "nome": "Prefeitura Municipal de Mostardas",
+    "tipo": "executivo",
+    "pai": null,
+    "o_que_faz": {
+      "texto": "Governa o município e presta os serviços públicos, por meio do gabinete do prefeito e de 11 secretarias.",
+      "fonte": "f-site-prefeitura"
+    },
+    "estrutura": {
+      "texto": "Organizada pela Lei 1.472/2000 e alterações posteriores. O organograma publicado é de 2023.",
+      "fonte": "f-pm-organograma"
+    }
+  },
+  {
+    "id": "gabinete",
+    "nome": "Gabinete do Prefeito",
+    "tipo": "gabinete",
+    "pai": "prefeitura",
+    "ordem": 20,
+    "o_que_faz": {
+      "texto": "Cuida das funções políticas, administrativas e sociais do prefeito e do despacho final dos atos administrativos.",
+      "fonte": "f-pm-gabinete"
+    },
+    "servicos": {
+      "texto": "Procuradoria do Município e Controle Interno.",
+      "fonte": "f-pm-gabinete"
+    },
+    "nota_titular": {
+      "texto": "O próprio prefeito, com o vice.",
+      "fonte": "f-pm-gabinete"
+    }
+  },
+  {
+    "id": "sec-saude",
+    "nome": "Secretaria de Saúde",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 1,
+    "o_que_faz": {
+      "texto": "Atenção à saúde da população, conforme a Constituição e os acordos com a União e o Estado.",
+      "fonte": "f-pm-sec-saude"
+    },
+    "servicos": {
+      "texto": "Consultas médicas e odontológicas, medicamentos, transporte, Cartão SUS e exames, em 8 unidades (4 de Saúde da Família e 4 UBS). O Hospital São Luiz é de uma entidade beneficente, não da Prefeitura.",
+      "fonte": "f-pm-unidades-saude"
+    }
+  },
+  {
+    "id": "sec-educacao",
+    "nome": "Secretaria de Educação",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 2,
+    "o_que_faz": {
+      "texto": "Educação infantil (0 a 6 anos) e ensino fundamental da rede municipal.",
+      "fonte": "f-pm-sec-educacao"
+    },
+    "servicos": {
+      "texto": "Matrícula e lista de espera. São 3 escolas de educação infantil e 9 de ensino fundamental.",
+      "fonte": "f-pm-escolas"
+    }
+  },
+  {
+    "id": "sec-assistencia-social",
+    "nome": "Secretaria de Assistência Social, Trabalho e Habitação",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 3,
+    "o_que_faz": {
+      "texto": "Garante a assistência social, como política de seguridade não contributiva, a quem dela precisar.",
+      "fonte": "f-pm-lei-3751-2018"
+    },
+    "servicos": {
+      "texto": "CRAS (Cadastro Único, Bolsa Família e oficinas), auxílio funeral e proteção social básica e especial.",
+      "fonte": "f-pm-cras"
+    }
+  },
+  {
+    "id": "sec-obras",
+    "nome": "Secretaria de Obras, Saneamento, Transporte e Trânsito",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 4,
+    "o_que_faz": {
+      "texto": "Obras, estradas e vias, transportes, limpeza pública e fiscalização de obras particulares.",
+      "fonte": "f-pm-sec-obras"
+    },
+    "servicos": {
+      "texto": "Coleta de lixo, iluminação e vias, transporte coletivo no interior e credencial de vaga para pessoas com deficiência e idosos.",
+      "fonte": "f-pm-sec-obras"
+    }
+  },
+  {
+    "id": "sec-agricultura",
+    "nome": "Secretaria de Agricultura e Desenvolvimento Econômico",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 5,
+    "o_que_faz": {
+      "texto": "Desenvolvimento agrícola e pastoril e assistência técnica ao produtor rural.",
+      "fonte": "f-pm-sec-agricultura"
+    }
+  },
+  {
+    "id": "sec-meio-ambiente",
+    "nome": "Secretaria de Meio Ambiente",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 6,
+    "o_que_faz": {
+      "texto": "Executa e coordena a política municipal de meio ambiente, inclusive o licenciamento ambiental.",
+      "fonte": "f-pm-lei-2589-2009"
+    },
+    "servicos": {
+      "texto": "Gestão ambiental, Ecoponto de lixo eletrônico e balneabilidade.",
+      "fonte": "f-pm-sec-meio-ambiente"
+    }
+  },
+  {
+    "id": "sec-turismo-cultura",
+    "nome": "Secretaria de Turismo e Cultura",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 7,
+    "o_que_faz": {
+      "texto": "Turismo, museus e bibliotecas, cultura e esporte.",
+      "fonte": "f-pm-sec-turismo"
+    },
+    "servicos": {
+      "texto": "Emissão de RG e de carteira de trabalho e alistamento militar.",
+      "fonte": "f-pm-sec-turismo"
+    }
+  },
+  {
+    "id": "sec-administracao",
+    "nome": "Secretaria de Administração",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 8,
+    "o_que_faz": {
+      "texto": "Centraliza as atividades administrativas: pessoal, bens patrimoniais e compras.",
+      "fonte": "f-pm-sec-administracao"
+    },
+    "servicos": {
+      "texto": "Almoxarifado, patrimônio, recursos humanos, licitações e compras.",
+      "fonte": "f-pm-sec-administracao"
+    }
+  },
+  {
+    "id": "sec-financas",
+    "nome": "Secretaria de Finanças",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 9,
+    "o_que_faz": {
+      "texto": "Orçamento, contabilidade, tributos, arrecadação e dívida ativa.",
+      "fonte": "f-pm-sec-financas"
+    },
+    "servicos": {
+      "texto": "IPTU e alteração cadastral de imóveis.",
+      "fonte": "f-pm-sec-financas"
+    },
+    "nota_titular": {
+      "texto": "Nenhuma nomeação de secretário foi encontrada. A página da secretaria indica a diretora financeira, Marisa Lemos Victorino Constante, como responsável.",
+      "fonte": "f-pm-sec-financas"
+    }
+  },
+  {
+    "id": "sec-planejamento",
+    "nome": "Secretaria de Coordenação e Planejamento",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 10,
+    "o_que_faz": {
+      "texto": "Acompanha o orçamento, coordena os programas de governo, o Plano Diretor e o cadastro técnico.",
+      "fonte": "f-pm-sec-planejamento"
+    }
+  },
+  {
+    "id": "sec-governo",
+    "nome": "Secretaria Geral de Governo",
+    "tipo": "secretaria",
+    "pai": "prefeitura",
+    "ordem": 11,
+    "o_que_faz": {
+      "texto": "Assessora o prefeito nas funções políticas e de cerimonial, na divulgação e na preparação de projetos de lei e decretos. Era a antiga Chefia de Gabinete.",
+      "fonte": "f-pm-lei-4203-2021"
+    }
+  },
+  {
+    "id": "camara",
+    "nome": "Câmara Municipal de Vereadores de Mostardas",
+    "tipo": "legislativo",
+    "pai": null,
+    "por_que": [
+      {
+        "texto": "A Constituição limita a 9 o número de vereadores em municípios com até 15 mil habitantes, e Mostardas tem cerca de 12 mil. Cabe à Câmara julgar as contas anuais do prefeito, com base no parecer do Tribunal de Contas do Estado; para derrubar esse parecer são precisos 6 dos 9 votos.",
+        "normas": [
+          "cf-29-iv-a",
+          "cf-31-2"
+        ]
+      },
+      {
+        "texto": "O custo da Câmara tem tetos na Constituição e na Lei de Responsabilidade Fiscal: subsídio de vereador até 30% do de deputado estadual (em municípios de 10 mil a 50 mil habitantes), soma dos subsídios até 5% da receita, gasto total até 7% da receita de impostos e transferências, e pessoal até 6% da receita corrente líquida.",
+        "normas": [
+          "cf-29-vi-b",
+          "cf-29-vii",
+          "cf-29-a",
+          "lrf-20-iii-a"
+        ]
+      }
+    ],
+    "o_que_faz": {
+      "texto": "Faz as leis do município com o prefeito, vota o orçamento e os tributos, fiscaliza os atos da Prefeitura, julga as contas anuais do prefeito e fixa os subsídios de prefeito, vice, secretários e vereadores.",
+      "fonte": "f-camara-lom-site"
+    },
+    "gasto_pessoal": {
+      "texto": "1,99% da receita corrente líquida no 1º semestre de 2026; o limite é 6%.",
+      "fonte": "f-camara-rgf-2026-1s"
+    }
+  },
+  {
+    "id": "conselho-tutelar",
+    "nome": "Conselho Tutelar de Mostardas",
+    "tipo": "conselho-tutelar",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 0,
+    "o_que_faz": {
+      "texto": "Órgão permanente e autônomo que zela pelos direitos de crianças e adolescentes: atende casos de ameaça ou violação e aplica medidas de proteção.",
+      "normas": [
+        "eca-131"
+      ]
+    },
+    "composicao": {
+      "texto": "5 conselheiros titulares e 4 suplentes, eleitos em 01/10/2023. Mandato de 10/01/2024 a 10/01/2028.",
+      "fonte": "f-pm-ct-homologacao-2023"
+    },
+    "lei_criacao": {
+      "texto": "Exigido pelo Estatuto da Criança e do Adolescente.",
+      "normas": [
+        "eca-132"
+      ]
+    },
+    "por_que": {
+      "normas": [
+        "eca-132",
+        "eca-139"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-saude",
+    "nome": "Conselho Municipal de Saúde (CMS)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 1,
+    "o_que_faz": {
+      "texto": "Ajuda a formular e fiscaliza a política de saúde do município, inclusive o uso do dinheiro. É permanente, paritário e deliberativo.",
+      "fonte": "f-pm-cms"
+    },
+    "composicao": {
+      "texto": "12 titulares: 6 usuários, 3 trabalhadores da saúde, 2 prestadores de serviço e 1 do governo. Mandato de 17/07/2025 a 16/07/2027.",
+      "fonte": "f-pm-portaria-2295-2025"
+    },
+    "reunioes": {
+      "texto": "Mensais, segundo o cadastro nacional (SIACS), cujos dados são de 2015.",
+      "fonte": "f-siacs"
+    },
+    "lei_criacao": {
+      "texto": "Lei 817/1991; hoje regido pela Lei 1.913/2004.",
+      "fonte": "f-pm-cms"
+    },
+    "evidencia": {
+      "data": "2026-06-12",
+      "texto": "Convocação da 7ª Conferência Municipal de Saúde, marcada para 23/06/2026. As atas publicadas vão só até 2024.",
+      "fonte": "f-pm-noticia-495"
+    },
+    "por_que": {
+      "normas": [
+        "l8142-1",
+        "l8142-4"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-educacao",
+    "nome": "Conselho Municipal de Educação (CME)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 2,
+    "o_que_faz": {
+      "texto": "Faz parte do sistema municipal de ensino, com funções consultiva, normativa, deliberativa, fiscalizadora e de controle social.",
+      "fonte": "f-pm-cme"
+    },
+    "composicao": {
+      "texto": "11 titulares: 2 do Executivo, 1 da área técnica da Secretaria de Educação, 1 da UAB, 1 dos professores estaduais, 1 do sindicato (DEMAGIM), 4 do magistério municipal e 1 de pais e professores. Mandato de 10/06/2026 a 09/06/2030.",
+      "fonte": "f-pm-portaria-2320-2026"
+    },
+    "lei_criacao": {
+      "texto": "Lei 3.112/2013, alterada pela Lei 3.960/2019.",
+      "fonte": "f-pm-cme"
+    },
+    "evidencia": {
+      "data": "2026-10-19",
+      "texto": "Publicação dos pareceres 16 a 22/2026 e das resoluções 02 e 03/2026.",
+      "fonte": "f-gd-cme-pareceres"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-assistencia",
+    "nome": "Conselho Municipal de Assistência Social (CMAS)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 3,
+    "o_que_faz": {
+      "texto": "Decide e fiscaliza a política de assistência social do município, com metade dos membros do governo e metade da sociedade civil.",
+      "normas": [
+        "loas-30"
+      ]
+    },
+    "composicao": {
+      "texto": "12 titulares: 6 do governo e 6 da sociedade civil (2 trabalhadores, 2 entidades e 2 usuários). Mandato de 26/03/2025 a 25/03/2027, com trocas de membros em abril e julho de 2026.",
+      "fonte": "f-pm-portaria-0962-2025"
+    },
+    "reunioes": {
+      "texto": "Mensais, na terceira quarta-feira, às 8h30, no prédio do CRAS (Rua Ana Amália Leite, 205).",
+      "fonte": "f-pm-cmas"
+    },
+    "lei_criacao": {
+      "texto": "Lei 2.007/2005; o sistema municipal de assistência social está na Lei 3.669/2017.",
+      "fonte": "f-pm-cmas"
+    },
+    "evidencia": {
+      "data": "2026-03-11",
+      "texto": "Ata 198, de reunião extraordinária. Na época, a presidência era de um representante da sociedade civil.",
+      "fonte": "f-gf-cmas-ata-198"
+    },
+    "por_que": {
+      "normas": [
+        "loas-30"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "comdica",
+    "nome": "Conselho dos Direitos da Criança e do Adolescente (COMDICA)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 4,
+    "o_que_faz": {
+      "texto": "Decide e controla as ações para crianças e adolescentes no município, com participação paritária da sociedade, e conduz a escolha do Conselho Tutelar.",
+      "normas": [
+        "eca-88-ii",
+        "eca-139"
+      ]
+    },
+    "composicao": {
+      "texto": "14 titulares: 7 do poder público e 7 de entidades não governamentais. O último mandato encontrado terminou em 24/04/2025.",
+      "fonte": "f-pm-comdica-2023"
+    },
+    "lei_criacao": {
+      "texto": "Lei 1.098/1994.",
+      "fonte": "f-pm-comdica"
+    },
+    "evidencia": {
+      "data": "2023-10-06",
+      "texto": "Homologação da eleição do Conselho Tutelar pela comissão eleitoral do conselho.",
+      "fonte": "f-pm-ct-homologacao-2023"
+    },
+    "por_que": {
+      "normas": [
+        "eca-88-ii"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cacs-fundeb",
+    "nome": "Conselho de Acompanhamento do Fundeb (CACS)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 5,
+    "o_que_faz": {
+      "texto": "Acompanha a distribuição, a transferência e o uso do dinheiro do Fundeb e dá parecer sobre a prestação de contas.",
+      "fonte": "f-pm-lei-4222-2021"
+    },
+    "composicao": {
+      "texto": "15 titulares: 2 do Executivo e 13 de professores, diretores, servidores, pais, estudantes, Conselho de Educação, Conselho Tutelar, sociedade civil, escolas do campo e escolas quilombolas. Mandato de 01/01/2023 a 31/12/2026.",
+      "fonte": "f-pm-cacs-portaria"
+    },
+    "reunioes": {
+      "texto": "No mínimo a cada três meses, pela lei municipal.",
+      "fonte": "f-pm-lei-4222-2021"
+    },
+    "lei_criacao": {
+      "texto": "Lei 4.222/2021.",
+      "fonte": "f-pm-lei-4222-2021"
+    },
+    "evidencia": {
+      "data": "2025-01-30",
+      "texto": "Cadastro com mandato vigente no FNDE, em análise desde 30/01/2025. Atas e pareceres não estão publicados no site.",
+      "fonte": "f-fnde-siscacs"
+    },
+    "por_que": {
+      "normas": [
+        "l14113-34"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cae",
+    "nome": "Conselho de Alimentação Escolar (CAE)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 6,
+    "o_que_faz": {
+      "texto": "Fiscaliza o dinheiro e a qualidade da merenda escolar e dá parecer sobre a execução do programa nacional de alimentação escolar.",
+      "normas": [
+        "l11947-18"
+      ]
+    },
+    "composicao": {
+      "texto": "7 titulares: 1 do Executivo, 2 de trabalhadores da educação ou estudantes, 2 de pais e 2 de entidades civis. A portaria fixa o mandato de 01/02/2023 a 31/01/2026.",
+      "fonte": "f-pm-cae-portaria"
+    },
+    "lei_criacao": {
+      "texto": "Lei 2.755/2010.",
+      "fonte": "f-pm-cae"
+    },
+    "evidencia": {
+      "data": "2024-12-04",
+      "texto": "No FNDE, o cadastro está válido, foi atualizado em 04/12/2024 e indica mandato até 25/01/2027, data diferente da portaria.",
+      "fonte": "f-fnde-sigpnae"
+    },
+    "por_que": {
+      "normas": [
+        "l11947-18"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "comdema",
+    "nome": "Conselho de Defesa do Meio Ambiente (COMDEMA)",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 7,
+    "o_que_faz": {
+      "texto": "Define diretrizes da política ambiental, julga recursos contra multas ambientais e aprova o plano do fundo ambiental.",
+      "fonte": "f-gf-comdema-regimento"
+    },
+    "composicao": {
+      "texto": "10 titulares: 5 secretarias municipais, o Parque Nacional da Lagoa do Peixe (ICMBio), os dois sindicatos rurais, a AMAR e a Emater. Mandato de 26/03/2025 a 25/03/2027.",
+      "fonte": "f-pm-comdema-portaria"
+    },
+    "reunioes": {
+      "texto": "A cada três meses, na sala de reuniões da Secretaria do Meio Ambiente. O regimento permite convidar pessoas com direito a voz.",
+      "fonte": "f-gf-comdema-regimento"
+    },
+    "lei_criacao": {
+      "texto": "Lei 3.853/2018.",
+      "fonte": "f-pm-comdema"
+    },
+    "evidencia": {
+      "data": "2026-04-16",
+      "texto": "Ata 37. O cabeçalho diz 16/04/2026; o texto menciona março.",
+      "fonte": "f-gf-comdema-ata-37"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-previdencia",
+    "nome": "Conselho de Previdência dos Servidores",
+    "tipo": "conselho",
+    "pai": null,
+    "ficha_completa": true,
+    "ordem": 8,
+    "o_que_faz": {
+      "texto": "Decide sobre a gestão do regime próprio de previdência dos servidores municipais. Um conselho fiscal separado, com 3 titulares, acompanha as contas.",
+      "fonte": "f-pm-previdencia"
+    },
+    "composicao": {
+      "texto": "5 membros: 2 do Executivo, 1 do Legislativo, 1 dos servidores ativos e 1 dos aposentados e pensionistas. Mandato de 03/02/2025 a 02/02/2029.",
+      "fonte": "f-pm-previdencia-portaria"
+    },
+    "lei_criacao": {
+      "texto": "Lei 4.332/2021, arts. 22 e 28.",
+      "fonte": "f-pm-previdencia"
+    },
+    "evidencia": {
+      "data": "2025-12-17",
+      "texto": "Ata 237.",
+      "fonte": "f-pm-previdencia-ata-237"
+    },
+    "por_que": {
+      "normas": [
+        "l9717-1-vi"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "comturc",
+    "nome": "Conselho de Turismo e Cultura (COMTURC)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 20,
+    "lei_criacao": {
+      "texto": "Lei 4.368/2022.",
+      "fonte": "f-pm-comturc"
+    },
+    "composicao": {
+      "texto": "19 titulares: 7 do poder público e 12 de setores como hospedagem, artesanato, artes, tradicionalistas, ternos e quilombolas. Mandato até 21/04/2028.",
+      "fonte": "f-pm-comturc-portaria"
+    },
+    "evidencia": {
+      "data": "2026-04-22",
+      "texto": "Nomeação dos membros.",
+      "fonte": "f-pm-comturc-portaria"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-pcd",
+    "nome": "Conselho da Pessoa com Deficiência",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 21,
+    "lei_criacao": {
+      "texto": "Lei 2.935/2012.",
+      "fonte": "f-pm-pcd-portaria"
+    },
+    "composicao": {
+      "texto": "9 titulares: 5 do poder público e 4 da sociedade civil. Mandato até 04/09/2027.",
+      "fonte": "f-pm-pcd-portaria"
+    },
+    "evidencia": {
+      "data": "2025-11-26",
+      "texto": "Ato do conselho.",
+      "fonte": "f-pm-pcd-2025"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "compir",
+    "nome": "Conselho de Promoção da Igualdade Racial (COMPIR)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 22,
+    "lei_criacao": {
+      "texto": "Lei 3.457/2016.",
+      "fonte": "f-pm-compir"
+    },
+    "composicao": {
+      "texto": "16 titulares: 9 governamentais e 7 não governamentais. Mandato até 01/12/2026.",
+      "fonte": "f-pm-compir"
+    },
+    "evidencia": {
+      "data": "2025-11-26",
+      "texto": "Troca de membros.",
+      "fonte": "f-pm-compir"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "combea",
+    "nome": "Conselho de Bem-Estar Animal (COMBEA)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 23,
+    "lei_criacao": {
+      "texto": "Lei 5.240/2026.",
+      "fonte": "f-pm-combea-portaria"
+    },
+    "composicao": {
+      "texto": "8 titulares: 4 de secretarias e 4 de entidades escolhidas por edital. Mandato de 25/05/2026 a 24/05/2028.",
+      "fonte": "f-pm-combea-portaria"
+    },
+    "evidencia": {
+      "data": "2026-05-25",
+      "texto": "Início do mandato.",
+      "fonte": "f-pm-combea-portaria"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cmdu",
+    "nome": "Conselho de Desenvolvimento Urbano (CMDU)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 24,
+    "lei_criacao": {
+      "texto": "Lei 4.537/2022.",
+      "fonte": "f-pm-cmdu"
+    },
+    "composicao": {
+      "texto": "12 vagas: 6 do poder público e 6 de entidades e profissionais. Mandato até 10/03/2028.",
+      "fonte": "f-pm-cmdu"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cmdr",
+    "nome": "Conselho de Desenvolvimento Rural (CMDR)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 25,
+    "lei_criacao": {
+      "texto": "Lei 4.159/2020.",
+      "fonte": "f-pm-cmdr-lei"
+    },
+    "composicao": {
+      "texto": "16 vagas: 3 de produtores, 5 do governo e 8 de entidades.",
+      "fonte": "f-pm-cmdr-lei"
+    },
+    "evidencia": {
+      "data": "2022-03-09",
+      "texto": "Último ato encontrado.",
+      "fonte": "f-pm-cmdr-2022"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-idoso",
+    "nome": "Conselho da Pessoa Idosa",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 26,
+    "lei_criacao": {
+      "texto": "Lei 2.444/2008.",
+      "fonte": "f-pm-idoso-composicao"
+    },
+    "composicao": {
+      "texto": "10 titulares: 5 do governo e 5 da sociedade civil. O ato não fixa mandato.",
+      "fonte": "f-pm-idoso-composicao"
+    },
+    "evidencia": {
+      "data": "2022-06-07",
+      "texto": "Último ato encontrado.",
+      "fonte": "f-pm-idoso-2022"
+    },
+    "por_que": {
+      "normas": [
+        "l10741-7"
+      ]
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "comphac",
+    "nome": "Conselho do Patrimônio Histórico e Cultural (COMPHAC)",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 27,
+    "lei_criacao": {
+      "texto": "Lei 2.014/2005, alterada pela Lei 3.252/2014.",
+      "fonte": "f-pm-comphac-portaria"
+    },
+    "composicao": {
+      "texto": "7 membros: 3 da Prefeitura, Câmara, ACIM, CREA e OAB.",
+      "fonte": "f-pm-comphac-portaria"
+    },
+    "evidencia": {
+      "data": "2019-04-09",
+      "texto": "Último ato encontrado.",
+      "fonte": "f-pm-comphac-portaria"
+    },
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "cons-habitacao",
+    "nome": "Conselho de Habitação",
+    "tipo": "conselho",
+    "pai": null,
+    "ordem": 28,
+    "lei_criacao": {
+      "texto": "Lei 1.850/2004.",
+      "fonte": "f-pm-habitacao"
+    },
+    "conferido_em": "2026-10-25"
+  }
+]

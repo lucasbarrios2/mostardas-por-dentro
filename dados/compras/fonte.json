@@ -1,0 +1,40 @@
+{
+  "id": "f-tce-licitacon",
+  "titulo": "LicitaCon: licitações e contratos da Prefeitura e da Câmara de Mostardas",
+  "emissor": "TCE-RS (dados informados pelo próprio órgão)",
+  "tipo": "dados-oficiais",
+  "url": "https://dados.tce.rs.gov.br/dataset/licitacoes-pm-de-mostardas",
+  "consultado_em": "2026-10-26",
+  "copia": {
+    "arquivos": [
+      {
+        "url": "https://dados.tce.rs.gov.br/dados/licitacon/licitacao/orgao/52400.csv.zip",
+        "arquivo": "bruto/tce-rs/licitacon/licitacao-52400.csv.zip",
+        "sha256": "63ada08030536a74a23a498f42be979648b9da4fb6aec70887f95ab584eed724",
+        "bytes": 4642818,
+        "last_modified": "Mon, 26 Oct 2026 01:57:37 GMT"
+      },
+      {
+        "url": "https://dados.tce.rs.gov.br/dados/licitacon/contrato/orgao/52400.csv.zip",
+        "arquivo": "bruto/tce-rs/licitacon/contrato-52400.csv.zip",
+        "sha256": "0298c8315b7e9151462cfd207c8da096f91fda3220022eb863ca003f7b17706a",
+        "bytes": 1226192,
+        "last_modified": "Mon, 26 Oct 2026 01:50:24 GMT"
+      },
+      {
+        "url": "https://dados.tce.rs.gov.br/dados/licitacon/licitacao/orgao/52401.csv.zip",
+        "arquivo": "bruto/tce-rs/licitacon/licitacao-52401.csv.zip",
+        "sha256": "f17194d1bdb87a469062f28d5c8802051360c0a5152963fce986fc954c16345b",
+        "bytes": 191757,
+        "last_modified": "Mon, 26 Oct 2026 01:57:38 GMT"
+      },
+      {
+        "url": "https://dados.tce.rs.gov.br/dados/licitacon/contrato/orgao/52401.csv.zip",
+        "arquivo": "bruto/tce-rs/licitacon/contrato-52401.csv.zip",
+        "sha256": "8148a59c52157ece4d414248d025da42857998e17016f143ef83b80bc9a75ff2",
+        "bytes": 75752,
+        "last_modified": "Mon, 26 Oct 2026 01:50:24 GMT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "id": "eleito-prefeito-2024",
+    "cargo": "prefeito",
+    "pessoa": "gilnei-nazareth",
+    "valido_desde": "2025-01-01",
+    "partido": "PP",
+    "votos": 4396,
+    "forma": "eleito em 2024 com 60,8% dos votos válidos; posse em 01/01/2025",
+    "fonte": "f-tse-prefeito-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vice-2024",
+    "cargo": "vice-prefeito",
+    "pessoa": "toni-araujo",
+    "valido_desde": "2025-01-01",
+    "partido": "MDB",
+    "forma": "eleito na chapa de Gilnei Nazareth",
+    "fonte": "f-tse-prefeito-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-edinei-machado",
+    "cargo": "vereador",
+    "pessoa": "edinei-machado",
+    "valido_desde": "2025-01-01",
+    "partido": "PP",
+    "votos": 572,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-dangelo-motta",
+    "cargo": "vereador",
+    "pessoa": "dangelo-motta",
+    "valido_desde": "2025-01-01",
+    "partido": "PDT",
+    "votos": 520,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-dudu-verardi",
+    "cargo": "vereador",
+    "pessoa": "dudu-verardi",
+    "valido_desde": "2025-01-01",
+    "partido": "PP",
+    "votos": 483,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-junior-pereira",
+    "cargo": "vereador",
+    "pessoa": "junior-pereira",
+    "valido_desde": "2025-01-01",
+    "partido": "MDB",
+    "votos": 408,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-cesar-galdino",
+    "cargo": "vereador",
+    "pessoa": "cesar-galdino",
+    "valido_desde": "2025-01-01",
+    "partido": "PDT",
+    "votos": 402,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-gabriela-saraiva",
+    "cargo": "vereador",
+    "pessoa": "gabriela-saraiva",
+    "valido_desde": "2025-01-01",
+    "partido": "MDB",
+    "votos": 331,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-marcelo-pedone",
+    "cargo": "vereador",
+    "pessoa": "marcelo-pedone",
+    "valido_desde": "2025-01-01",
+    "partido": "PSDB",
+    "votos": 328,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-jessica-pereira",
+    "cargo": "vereador",
+    "pessoa": "jessica-pereira",
+    "valido_desde": "2025-01-01",
+    "partido": "PP",
+    "votos": 306,
+    "forma": "eleito em 2024",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-jorge-amaro",
+    "cargo": "vereador",
+    "pessoa": "jorge-amaro",
+    "valido_desde": "2025-01-01",
+    "partido": "PSDB",
+    "votos": 356,
+    "forma": "eleito em 2024",
+    "encerrado": true,
+    "nota": "Não aparece mais na lista de vereadores do site da Câmara. A data e o motivo da saída não foram encontrados.",
+    "fonte": "f-tse-vereador-2024",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "eleito-vereador-ze-manoel",
+    "cargo": "vereador",
+    "pessoa": "ze-manoel",
+    "valido_desde": null,
+    "partido": "PSDB",
+    "votos": 224,
+    "forma": "suplente em exercício",
+    "nota": "Foi suplente na eleição de 2024 e aparece como vereador no site da Câmara e na Carta de Serviços de maio de 2026. A data e o ato de posse não foram encontrados.",
+    "fonte": "f-site-camara",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "mesa-2026-presidente-camara",
+    "cargo": "presidente-camara",
+    "pessoa": "dudu-verardi",
+    "valido_desde": "2026-01-01",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-site-camara",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "mesa-2026-vice-presidente-camara",
+    "cargo": "vice-presidente-camara",
+    "pessoa": "gabriela-saraiva",
+    "valido_desde": "2026-01-01",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-site-camara",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "mesa-2026-secretario-mesa-camara",
+    "cargo": "secretario-mesa-camara",
+    "pessoa": "jessica-pereira",
+    "valido_desde": "2026-01-01",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-site-camara",
+    "conferido_em": "2026-10-25",
+    "titulo": "1ª secretária"
+  },
+  {
+    "id": "mesa-2025-presidente-camara",
+    "cargo": "presidente-camara",
+    "pessoa": "junior-pereira",
+    "valido_desde": "2025-01-01",
+    "valido_ate": "2025-12-31",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-camara-rel-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "mesa-2025-vice-presidente-camara",
+    "cargo": "vice-presidente-camara",
+    "pessoa": "jessica-pereira",
+    "valido_desde": "2025-01-01",
+    "valido_ate": "2025-12-31",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-camara-rel-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "mesa-2025-secretario-mesa-camara",
+    "cargo": "secretario-mesa-camara",
+    "pessoa": "dudu-verardi",
+    "valido_desde": "2025-01-01",
+    "valido_ate": "2025-12-31",
+    "nota": "Data presumida: pelo Regimento Interno, a Mesa tem mandato de um ano a partir de 1º de janeiro. O ato não foi encontrado.",
+    "fonte": "f-camara-rel-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-administracao",
+    "cargo": "titular-sec-administracao",
+    "pessoa": "andre-soares",
+    "valido_desde": "2025-01-01",
+    "forma": "nomeado pela Portaria 1/2025",
+    "fonte": "f-pm-portaria-0001-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-agricultura",
+    "cargo": "titular-sec-agricultura",
+    "pessoa": "eliasio-costa",
+    "valido_desde": "2026-01-05",
+    "forma": "nomeado pela Portaria 29/2026",
+    "fonte": "f-pm-portaria-0029-2026",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-assistencia-social",
+    "cargo": "titular-sec-assistencia-social",
+    "pessoa": "alcimir-schafhauser",
+    "valido_desde": "2025-01-02",
+    "forma": "nomeado pela Portaria 4/2025",
+    "fonte": "f-pm-portaria-0004-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-educacao",
+    "cargo": "titular-sec-educacao",
+    "pessoa": "valeria-souza",
+    "valido_desde": "2026-01-05",
+    "forma": "nomeada pela Portaria 1/2026",
+    "fonte": "f-pm-portaria-0001-2026",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-governo",
+    "cargo": "titular-sec-governo",
+    "pessoa": "andre-soares",
+    "valido_desde": "2025-08-07",
+    "forma": "responde pela pasta; é o secretário de Administração",
+    "fonte": "f-pm-portaria-2601-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-meio-ambiente",
+    "cargo": "titular-sec-meio-ambiente",
+    "pessoa": "pedro-oliveira",
+    "valido_desde": "2026-07-20",
+    "forma": "responde pela pasta; é o secretário de Planejamento",
+    "fonte": "f-pm-portaria-2751-2026",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-obras",
+    "cargo": "titular-sec-obras",
+    "pessoa": "julio-afonso",
+    "valido_desde": "2024-04-01",
+    "forma": "nomeado pela Portaria 995/2024",
+    "fonte": "f-pm-portaria-995-2024",
+    "conferido_em": "2026-10-25",
+    "nota": "Nomeado em 2024, na gestão anterior, e citado como secretário em portaria de julho de 2026."
+  },
+  {
+    "id": "nomeacao-titular-sec-planejamento",
+    "cargo": "titular-sec-planejamento",
+    "pessoa": "pedro-oliveira",
+    "valido_desde": null,
+    "forma": "nomeação não encontrada",
+    "fonte": "f-pm-portaria-2751-2026",
+    "conferido_em": "2026-10-25",
+    "nota": "O ato de nomeação para o Planejamento não foi encontrado. Ele é citado como secretário de Planejamento na Portaria 2.751/2026."
+  },
+  {
+    "id": "nomeacao-titular-sec-saude",
+    "cargo": "titular-sec-saude",
+    "pessoa": "diuly-silva",
+    "valido_desde": "2025-01-02",
+    "forma": "nomeada pela Portaria 2/2025",
+    "fonte": "f-pm-portaria-0002-2025",
+    "conferido_em": "2026-10-25"
+  },
+  {
+    "id": "nomeacao-titular-sec-turismo-cultura",
+    "cargo": "titular-sec-turismo-cultura",
+    "pessoa": "joao-cado",
+    "valido_desde": "2026-01-05",
+    "forma": "nomeado pela Portaria 32/2026",
+    "fonte": "f-pm-portaria-0032-2026",
+    "conferido_em": "2026-10-25"
+  }
+]

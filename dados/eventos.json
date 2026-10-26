@@ -1,0 +1,95 @@
+[
+  {
+    "id": "sessoes-camara",
+    "orgao": "camara",
+    "ordem": 1,
+    "titulo": "Sessões da Câmara",
+    "quando": "Segundas-feiras, às 18h",
+    "descricao": "As sessões são públicas e o voto é aberto. Há transmissão pelo site, pelo YouTube e por uma rádio local.",
+    "normas": [
+      "ri-86"
+    ],
+    "fonte": "f-camara-carta-2026"
+  },
+  {
+    "id": "tribuna-popular",
+    "orgao": null,
+    "ordem": 2,
+    "titulo": "Falar na Tribuna Popular",
+    "quando": "Numa sessão ordinária, com inscrição 5 dias antes",
+    "descricao": "Você pode usar 10 minutos da sessão para falar de um problema da cidade.",
+    "normas": [
+      "ri-92"
+    ]
+  },
+  {
+    "id": "audiencias-metas-fiscais",
+    "orgao": null,
+    "ordem": 3,
+    "titulo": "Audiências das metas fiscais",
+    "quando": "Até o fim de fevereiro, maio e setembro",
+    "descricao": "Na Câmara, o governo mostra se cumpriu as metas fiscais dos últimos quatro meses e como está a dívida. A audiência é pública.",
+    "normas": [
+      "lrf-9-4"
+    ]
+  },
+  {
+    "id": "audiencias-orcamento",
+    "orgao": null,
+    "ordem": 4,
+    "titulo": "Audiências do orçamento",
+    "quando": "Enquanto o orçamento é preparado e votado",
+    "descricao": "O plano plurianual, a lei de diretrizes e o orçamento anual devem ser discutidos com a população antes de aprovados.",
+    "normas": [
+      "lrf-48-1-i"
+    ]
+  },
+  {
+    "id": "eleicao-conselho-tutelar",
+    "orgao": null,
+    "ordem": 5,
+    "titulo": "Eleição do Conselho Tutelar",
+    "quando": "Próxima: 3 de outubro de 2027",
+    "descricao": "A população escolhe os 5 conselheiros tutelares. Os eleitos tomam posse em 10 de janeiro de 2028.",
+    "normas": [
+      "eca-132",
+      "eca-139"
+    ]
+  },
+  {
+    "id": "contas-prefeito",
+    "orgao": null,
+    "ordem": 6,
+    "titulo": "Examinar as contas do prefeito",
+    "quando": "Todo ano, por 60 dias, depois do parecer do Tribunal de Contas",
+    "descricao": "As contas ficam disponíveis para qualquer contribuinte examinar e questionar antes de a Câmara votar.",
+    "normas": [
+      "cf-31-3",
+      "ri-165-iv"
+    ]
+  },
+  {
+    "id": "iniciativa-popular",
+    "orgao": null,
+    "ordem": 7,
+    "titulo": "Propor uma lei",
+    "quando": "A qualquer momento",
+    "descricao": "Com 9.363 eleitores aptos em 2024, um projeto de iniciativa popular precisa de pelo menos 469 assinaturas.",
+    "normas": [
+      "cf-29-xiii"
+    ],
+    "fonte": "f-tse-vereador-2024"
+  },
+  {
+    "id": "audiencias-camara",
+    "orgao": null,
+    "ordem": 8,
+    "titulo": "Audiências públicas da Câmara",
+    "quando": "Em projetos de grande repercussão",
+    "descricao": "A comissão responsável ouve a comunidade antes da votação. Em 2025 foram 12 audiências.",
+    "normas": [
+      "ri-61"
+    ],
+    "fonte": "f-camara-rel-2025"
+  }
+]

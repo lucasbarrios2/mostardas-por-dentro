@@ -1,0 +1,821 @@
+{
+  "ano": 2025,
+  "periodo": {
+    "inicio": "2025-01-02",
+    "fim": "2025-12-31"
+  },
+  "ultimo_mes_enviado": 12,
+  "totais": {
+    "prefeitura": {
+      "empenhado": 114094657.91,
+      "liquidado": 110072448.41,
+      "pago": 108254721.68
+    },
+    "camara": {
+      "empenhado": 2335475.51,
+      "liquidado": 2269282.91,
+      "pago": 2244336.67
+    }
+  },
+  "por_funcao": [
+    {
+      "funcao": "Saúde",
+      "pago": 25905935.46
+    },
+    {
+      "funcao": "Educação",
+      "pago": 25836618.48
+    },
+    {
+      "funcao": "Encargos Especiais",
+      "pago": 19306354.6
+    },
+    {
+      "funcao": "Administração",
+      "pago": 15973785.8
+    },
+    {
+      "funcao": "Urbanismo",
+      "pago": 7657961.84
+    },
+    {
+      "funcao": "Transporte",
+      "pago": 5106486.23
+    },
+    {
+      "funcao": "Assistência Social",
+      "pago": 3211223.92
+    },
+    {
+      "funcao": "Saneamento",
+      "pago": 3089366.15
+    },
+    {
+      "funcao": "Legislativa",
+      "pago": 2244336.67
+    },
+    {
+      "funcao": "Agricultura",
+      "pago": 871950.76
+    },
+    {
+      "funcao": "Gestão Ambiental",
+      "pago": 546102.87
+    },
+    {
+      "funcao": "Comércio e Serviços",
+      "pago": 235672.25
+    },
+    {
+      "funcao": "Segurança Pública",
+      "pago": 220901.35
+    },
+    {
+      "funcao": "Desporto e Lazer",
+      "pago": 175679.21
+    },
+    {
+      "funcao": "Cultura",
+      "pago": 110682.76
+    },
+    {
+      "funcao": "Comunicações",
+      "pago": 6000.0
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2022-02",
+      "pago": 19715.12
+    },
+    {
+      "mes": "2022-03",
+      "pago": 18056.38
+    },
+    {
+      "mes": "2022-04",
+      "pago": 290.0
+    },
+    {
+      "mes": "2022-05",
+      "pago": 18885.75
+    },
+    {
+      "mes": "2022-06",
+      "pago": 19779.25
+    },
+    {
+      "mes": "2022-07",
+      "pago": 18913.64
+    },
+    {
+      "mes": "2022-08",
+      "pago": 19455.38
+    },
+    {
+      "mes": "2022-09",
+      "pago": 47823.81
+    },
+    {
+      "mes": "2022-12",
+      "pago": 46426.87
+    },
+    {
+      "mes": "2023-03",
+      "pago": 75.6
+    },
+    {
+      "mes": "2023-05",
+      "pago": 572.1
+    },
+    {
+      "mes": "2023-06",
+      "pago": 568.52
+    },
+    {
+      "mes": "2023-07",
+      "pago": 28.62
+    },
+    {
+      "mes": "2023-08",
+      "pago": 568.25
+    },
+    {
+      "mes": "2023-09",
+      "pago": 1490.85
+    },
+    {
+      "mes": "2023-10",
+      "pago": 25200.8
+    },
+    {
+      "mes": "2023-11",
+      "pago": 634.56
+    },
+    {
+      "mes": "2023-12",
+      "pago": 8619.84
+    },
+    {
+      "mes": "2024-01",
+      "pago": 63716.6
+    },
+    {
+      "mes": "2024-02",
+      "pago": 186935.58
+    },
+    {
+      "mes": "2024-03",
+      "pago": 268049.12
+    },
+    {
+      "mes": "2024-04",
+      "pago": 495018.07
+    },
+    {
+      "mes": "2024-05",
+      "pago": 88251.6
+    },
+    {
+      "mes": "2024-06",
+      "pago": 407667.0
+    },
+    {
+      "mes": "2024-07",
+      "pago": 127604.51
+    },
+    {
+      "mes": "2024-08",
+      "pago": 420580.27
+    },
+    {
+      "mes": "2024-09",
+      "pago": 511983.81
+    },
+    {
+      "mes": "2024-10",
+      "pago": 555838.53
+    },
+    {
+      "mes": "2024-11",
+      "pago": 988214.91
+    },
+    {
+      "mes": "2024-12",
+      "pago": 1178864.69
+    },
+    {
+      "mes": "2025-01",
+      "pago": 6385588.64
+    },
+    {
+      "mes": "2025-02",
+      "pago": 6487030.06
+    },
+    {
+      "mes": "2025-03",
+      "pago": 8428839.64
+    },
+    {
+      "mes": "2025-04",
+      "pago": 7432290.06
+    },
+    {
+      "mes": "2025-05",
+      "pago": 7266263.58
+    },
+    {
+      "mes": "2025-06",
+      "pago": 9030023.94
+    },
+    {
+      "mes": "2025-07",
+      "pago": 9773364.63
+    },
+    {
+      "mes": "2025-08",
+      "pago": 9230493.45
+    },
+    {
+      "mes": "2025-09",
+      "pago": 9288183.9
+    },
+    {
+      "mes": "2025-10",
+      "pago": 8646555.97
+    },
+    {
+      "mes": "2025-11",
+      "pago": 12189285.64
+    },
+    {
+      "mes": "2025-12",
+      "pago": 10801308.81
+    }
+  ],
+  "folha": [
+    {
+      "nome": "Folha dos servidores ativos",
+      "pago": 33575291.13
+    },
+    {
+      "nome": "Folha dos aposentados",
+      "pago": 11530478.73
+    },
+    {
+      "nome": "Contribuição ao IPE",
+      "pago": 1219896.83
+    },
+    {
+      "nome": "Folha dos pensionistas",
+      "pago": 870416.86
+    },
+    {
+      "nome": "Contribuição ao INSS",
+      "pago": 487681.02
+    },
+    {
+      "nome": "Depósitos de FGTS",
+      "pago": 48768.6
+    }
+  ],
+  "credores": [
+    {
+      "nome": "INSS - ASPS",
+      "cnpj": "00.000.000/0000-00",
+      "pago": 9387051.77,
+      "n": 1837,
+      "funcoes": [
+        "Administração",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "SOC.BENEFIC.SAO LUIZ DE MOSTARDAS",
+      "cnpj": "90.604.414/0001-12",
+      "pago": 6804191.14,
+      "n": 84,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "CAIXA ECONOMICA FEDERAL -MOSTARDAS",
+      "cnpj": "00.360.305/4426-38",
+      "pago": 3730310.39,
+      "n": 163,
+      "funcoes": [
+        "Encargos Especiais",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "NEO CONSULTORIA E ADMINISTRACAO DE BENEFICIOS EIRE",
+      "cnpj": "25.165.749/0001-10",
+      "pago": 3386704.1,
+      "n": 280,
+      "funcoes": [
+        "Transporte",
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "MINERADORA TEODORO LTDA",
+      "cnpj": "87.361.507/0001-59",
+      "pago": 2954231.01,
+      "n": 20,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "FUNASA - FUNDACAO NACIONAL DA SAUDE",
+      "cnpj": "26.989.350/0001-16",
+      "pago": 1725141.14,
+      "n": 5,
+      "funcoes": [
+        "Encargos Especiais"
+      ]
+    },
+    {
+      "nome": "CEEE DISTRIBUICAO",
+      "cnpj": "08.467.115/0001-00",
+      "pago": 1636687.61,
+      "n": 683,
+      "funcoes": [
+        "Urbanismo",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "IVG BRASIL LTDA",
+      "cnpj": "36.519.422/0001-15",
+      "pago": 1266499.0,
+      "n": 18,
+      "funcoes": [
+        "Educação"
+      ]
+    },
+    {
+      "nome": "DE NIGRIS DISTRIBUIDORA DE VEICULOS LTDA",
+      "cnpj": "61.591.459/0001-00",
+      "pago": 1168000.0,
+      "n": 2,
+      "funcoes": [
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "BLOCOSINOS INDUSTRIA E COMERCIO DE ARTEFATOS DE CI",
+      "cnpj": "46.737.390/0001-88",
+      "pago": 1143119.76,
+      "n": 24,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "FAT FUNDO DE AMPARO AO TRABALHADOR - PASEP",
+      "cnpj": "07.526.983/0001-43",
+      "pago": 1106505.77,
+      "n": 184,
+      "funcoes": [
+        "Encargos Especiais"
+      ]
+    },
+    {
+      "nome": "GREEN CARD S/A REFEICOES COMER.SERV",
+      "cnpj": "92.559.830/0001-71",
+      "pago": 1043047.14,
+      "n": 68,
+      "funcoes": [
+        "Educação",
+        "Administração"
+      ]
+    },
+    {
+      "nome": "TSC TRANSPORTE ESCOLAR EIRELI",
+      "cnpj": "29.856.642/0001-79",
+      "pago": 899171.6,
+      "n": 127,
+      "funcoes": [
+        "Educação"
+      ]
+    },
+    {
+      "nome": "EXPRESSO PALMARES TURISMO LTDA.",
+      "cnpj": "92.769.470/0001-32",
+      "pago": 642229.25,
+      "n": 153,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "M.R. MACHADO FISOTERAPIA",
+      "cnpj": "40.751.264/0001-00",
+      "pago": 621768.0,
+      "n": 93,
+      "funcoes": [
+        "Saúde",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "ECO LIXO LTDA",
+      "cnpj": "42.443.603/0001-08",
+      "pago": 594071.28,
+      "n": 58,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "GRA ASSESSORIA E CONSULTORIA EM NEGOCIOS INTERNACI",
+      "cnpj": "14.767.899/0001-87",
+      "pago": 587435.54,
+      "n": 21,
+      "funcoes": [
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "METROCIL- EMPRESA DE CADASTRO IMOBILIARIO LTDA.",
+      "cnpj": "01.427.781/0001-68",
+      "pago": 576136.37,
+      "n": 65,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "CENTRO DE INTEGRACAO EMPRESA-ESCOLA - RS",
+      "cnpj": "92.954.957/0001-95",
+      "pago": 498637.03,
+      "n": 184,
+      "funcoes": [
+        "Educação",
+        "Administração"
+      ]
+    },
+    {
+      "nome": "PHENIX SOLUCOES LTDA",
+      "cnpj": "10.439.655/0001-14",
+      "pago": 482597.39,
+      "n": 72,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "RAC RS AMBIENTAL LTDA",
+      "cnpj": "55.478.884/0001-86",
+      "pago": 463651.68,
+      "n": 43,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "SOTRIMA AGRICOLA LTDA",
+      "cnpj": "92.028.224/0007-15",
+      "pago": 455000.0,
+      "n": 2,
+      "funcoes": [
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "CLEOMAR MINIMERCADO LTDA",
+      "cnpj": "10.339.187/0002-97",
+      "pago": 417809.81,
+      "n": 737,
+      "funcoes": [
+        "Educação",
+        "Assistência Social"
+      ]
+    },
+    {
+      "nome": "RPPS - PARCELAMENTO",
+      "cnpj": "11.405.829/0001-90",
+      "pago": 416327.84,
+      "n": 13,
+      "funcoes": [
+        "Encargos Especiais"
+      ]
+    },
+    {
+      "nome": "SAVAR VEICULOS LTDA",
+      "cnpj": "92.889.070/0001-60",
+      "pago": 411706.09,
+      "n": 20,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "RURAL RENTAL SERVICE LTDA",
+      "cnpj": "93.969.707/0001-91",
+      "pago": 395535.93,
+      "n": 83,
+      "funcoes": [
+        "Saúde",
+        "Educação"
+      ]
+    },
+    {
+      "nome": "ADRIEL PEREIRA DE ARAUJO",
+      "cnpj": "07.051.422/0001-35",
+      "pago": 386245.74,
+      "n": 76,
+      "funcoes": [
+        "Saúde",
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "SHARK S/A MAQUINAS PARA CONSTRUCAO",
+      "cnpj": "06.224.121/0002-84",
+      "pago": 382828.93,
+      "n": 12,
+      "funcoes": [
+        "Transporte"
+      ]
+    },
+    {
+      "nome": "MULTIMIX COMERCIO E SERVICOS LTDA",
+      "cnpj": "19.140.626/0001-21",
+      "pago": 372990.0,
+      "n": 3,
+      "funcoes": [
+        "Agricultura"
+      ]
+    },
+    {
+      "nome": "MBR COMERCIO DE VEICULOS LTDA",
+      "cnpj": "14.480.377/0001-08",
+      "pago": 366130.0,
+      "n": 5,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "VIRTUAL CONSULT.EM TECN DA INFORM. LTDA",
+      "cnpj": "07.832.765/0001-37",
+      "pago": 356638.4,
+      "n": 277,
+      "funcoes": [
+        "Educação",
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "GOVERNANCABRASIL S/A TECNOLOGIA E GESTAO EM SERVIC",
+      "cnpj": "00.165.960/0001-01",
+      "pago": 355028.62,
+      "n": 166,
+      "funcoes": [
+        "Administração",
+        "Gestão Ambiental"
+      ]
+    },
+    {
+      "nome": "KOWAL ENGENHARIA AMBIENTAL LTDA",
+      "cnpj": "27.409.076/0001-21",
+      "pago": 327208.98,
+      "n": 48,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "UNIAO VEICULOS ESPECIAIS LTDA",
+      "cnpj": "47.863.531/0001-71",
+      "pago": 320000.0,
+      "n": 2,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "JOAO BALDUINO DOS SANTOS",
+      "cnpj": "31.122.788/0001-32",
+      "pago": 318463.52,
+      "n": 4,
+      "funcoes": [
+        "Urbanismo"
+      ]
+    },
+    {
+      "nome": "VIA PORTO VEICULOS LTDA",
+      "cnpj": "02.266.596/0005-25",
+      "pago": 311400.0,
+      "n": 3,
+      "funcoes": [
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "MANUPA COMERCIO EXPORTACAO IMPORTACAO DE EQUIPAMEN",
+      "cnpj": "03.093.776/0014-06",
+      "pago": 294700.0,
+      "n": 2,
+      "funcoes": [
+        "Educação"
+      ]
+    },
+    {
+      "nome": "MCT TRANSPORTES LTDA - ME",
+      "cnpj": "05.695.098/0001-62",
+      "pago": 287339.8,
+      "n": 26,
+      "funcoes": [
+        "Saneamento"
+      ]
+    },
+    {
+      "nome": "NELCAR PECAS E SERV. AUTOMOTIVOS LTDA-ME",
+      "cnpj": "07.607.806/0001-91",
+      "pago": 272365.0,
+      "n": 107,
+      "funcoes": [
+        "Transporte",
+        "Saúde"
+      ]
+    },
+    {
+      "nome": "OXXIL BRASIL SOLUCOES AMBIENTAIS EIRELI",
+      "cnpj": "38.822.457/0001-54",
+      "pago": 271349.04,
+      "n": 45,
+      "funcoes": [
+        "Saúde",
+        "Saneamento"
+      ]
+    }
+  ],
+  "n_credores": 590,
+  "pessoas_fisicas": [
+    {
+      "tipo": "Diarias no pais - servidores",
+      "pago": 404270.47,
+      "n": 5235
+    },
+    {
+      "tipo": "Locacao de imoveis",
+      "pago": 311306.35,
+      "n": 224
+    },
+    {
+      "tipo": "Auxilio a pessoas fisicas",
+      "pago": 248792.0,
+      "n": 151
+    },
+    {
+      "tipo": "Precatorios incluidos na lei do orcamento",
+      "pago": 212582.38,
+      "n": 3
+    },
+    {
+      "tipo": "Sentencas judiciais",
+      "pago": 167018.99,
+      "n": 4
+    },
+    {
+      "tipo": "Outras premiacoes",
+      "pago": 143042.86,
+      "n": 50
+    },
+    {
+      "tipo": "Precatorios - ativo civil",
+      "pago": 90286.61,
+      "n": 7
+    },
+    {
+      "tipo": "Material de consumo - pagamento antecipado",
+      "pago": 68210.65,
+      "n": 138
+    },
+    {
+      "tipo": "Sentenca judicial de peq valor - ativo civil",
+      "pago": 59122.71,
+      "n": 15
+    },
+    {
+      "tipo": "Diarias no pais- agentes politicos",
+      "pago": 58145.45,
+      "n": 344
+    },
+    {
+      "tipo": "Outros serv.de terceiros pj - pagamento antecipado",
+      "pago": 49717.38,
+      "n": 132
+    },
+    {
+      "tipo": "Outras diarias - vereadores",
+      "pago": 28325.0,
+      "n": 48
+    },
+    {
+      "tipo": "Sentencas judiciais transitadas em julgado",
+      "pago": 25311.55,
+      "n": 10
+    },
+    {
+      "tipo": "Servicos de assistencia social",
+      "pago": 19754.75,
+      "n": 53
+    },
+    {
+      "tipo": "Pensoes especiais",
+      "pago": 11132.0,
+      "n": 16
+    },
+    {
+      "tipo": "Outras diarias - prefeito e vice",
+      "pago": 7375.5,
+      "n": 9
+    },
+    {
+      "tipo": "Honorarios sucumbenciais de precatorios",
+      "pago": 5343.41,
+      "n": 1
+    },
+    {
+      "tipo": "Ressarcimento de passagens e desp.c/locomocao",
+      "pago": 4273.2,
+      "n": 30
+    },
+    {
+      "tipo": "Equipamento e material permanente - pagamento antecipado",
+      "pago": 3615.05,
+      "n": 12
+    },
+    {
+      "tipo": "Servicos de t.i.c. - pagamento antecipado",
+      "pago": 2940.0,
+      "n": 16
+    },
+    {
+      "tipo": "Diarias pais - conselheiros tutelares",
+      "pago": 2601.54,
+      "n": 29
+    },
+    {
+      "tipo": "Diversas indenizacoes e restituicoes",
+      "pago": 1926.99,
+      "n": 7
+    },
+    {
+      "tipo": "Generos de alimentacao",
+      "pago": 1900.0,
+      "n": 2
+    },
+    {
+      "tipo": "Remuneracao dos integrantes das jaris",
+      "pago": 1438.8,
+      "n": 11
+    },
+    {
+      "tipo": "Restituicoes de despesas eventuais com alimentacao",
+      "pago": 558.09,
+      "n": 5
+    },
+    {
+      "tipo": "Diarias a conselheiros",
+      "pago": 466.02,
+      "n": 2
+    },
+    {
+      "tipo": "Indenizacoes e restituicoes",
+      "pago": 388.97,
+      "n": 2
+    },
+    {
+      "tipo": "Servicos de energia eletrica",
+      "pago": 0.0,
+      "n": 2
+    },
+    {
+      "tipo": "Manutencao e conservacao de equipamentos de t.i.c.",
+      "pago": 0.0,
+      "n": 2
+    }
+  ],
+  "fonte": {
+    "id": "f-tce-empenhos-2025",
+    "titulo": "Despesa por empenhos 2025: Prefeitura e Câmara de Mostardas",
+    "emissor": "TCE-RS (dados informados pelo próprio órgão)",
+    "tipo": "dados-oficiais",
+    "url": "https://dados.tce.rs.gov.br/dataset/despesa-orcamentaria-por-empenhos-2025",
+    "consultado_em": "2026-10-26",
+    "copia": {
+      "url": "https://dados.tce.rs.gov.br/dados/municipal/empenhos/2025.csv.zip",
+      "last_modified": "Sun, 12 Apr 2026 10:15:28 GMT",
+      "arquivo": "bruto/tce-rs/empenhos/mostardas-2025.csv.gz",
+      "sha256_filtrado": "915c8bebd06e533e075679a27140f80aded647052b9ec544178865843b6b6710",
+      "coletado_em": "2026-10-26"
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "despesa-funcao-2025",
+  "ente": {
+    "ibge": "4312500",
+    "nome": "Mostardas",
+    "uf": "RS"
+  },
+  "exercicio": 2025,
+  "medida_principal": "liquidado",
+  "fonte": "f-siconfi-dca-2025-ie",
+  "conferido_em": "2026-10-25",
+  "linhas": [
+    {
+      "funcao_codigo": "10",
+      "funcao": "Saúde",
+      "empenhado": 25017647.01,
+      "liquidado": 22498520.1,
+      "pago": 21883496.88
+    },
+    {
+      "funcao_codigo": "12",
+      "funcao": "Educação",
+      "empenhado": 21642225.8,
+      "liquidado": 21588286.31,
+      "pago": 21416758.96
+    },
+    {
+      "funcao_codigo": "28",
+      "funcao": "Encargos Especiais",
+      "empenhado": 19097709.43,
+      "liquidado": 19093932.95,
+      "pago": 18962442.35
+    },
+    {
+      "funcao_codigo": "04",
+      "funcao": "Administração",
+      "empenhado": 11394568.1,
+      "liquidado": 11323302.99,
+      "pago": 11167990.41
+    },
+    {
+      "funcao_codigo": "15",
+      "funcao": "Urbanismo",
+      "empenhado": 5795136.78,
+      "liquidado": 5665516.7,
+      "pago": 5523184.74
+    },
+    {
+      "funcao_codigo": "26",
+      "funcao": "Transporte",
+      "empenhado": 5738875.52,
+      "liquidado": 4938135.76,
+      "pago": 4895890.5
+    },
+    {
+      "funcao_codigo": "08",
+      "funcao": "Assistência Social",
+      "empenhado": 2875181.57,
+      "liquidado": 2856539.69,
+      "pago": 2840517.17
+    },
+    {
+      "funcao_codigo": "17",
+      "funcao": "Saneamento",
+      "empenhado": 2421692.14,
+      "liquidado": 2385424,
+      "pago": 2270938.78
+    },
+    {
+      "funcao_codigo": "01",
+      "funcao": "Legislativa",
+      "empenhado": 2168977.82,
+      "liquidado": 2102785.22,
+      "pago": 2082952.05
+    },
+    {
+      "funcao_codigo": "18",
+      "funcao": "Gestão Ambiental",
+      "empenhado": 493507.14,
+      "liquidado": 492973.1,
+      "pago": 479125.11
+    },
+    {
+      "funcao_codigo": "20",
+      "funcao": "Agricultura",
+      "empenhado": 505808.66,
+      "liquidado": 459785.31,
+      "pago": 454932.97
+    },
+    {
+      "funcao_codigo": "23",
+      "funcao": "Comércio e Serviços",
+      "empenhado": 241048.47,
+      "liquidado": 226372.98,
+      "pago": 207526.82
+    },
+    {
+      "funcao_codigo": "06",
+      "funcao": "Segurança Pública",
+      "empenhado": 220901.35,
+      "liquidado": 220901.35,
+      "pago": 220901.35
+    },
+    {
+      "funcao_codigo": "27",
+      "funcao": "Desporto e Lazer",
+      "empenhado": 155430.84,
+      "liquidado": 155430.84,
+      "pago": 154608.66
+    },
+    {
+      "funcao_codigo": "13",
+      "funcao": "Cultura",
+      "empenhado": 168283.76,
+      "liquidado": 110682.76,
+      "pago": 110682.76
+    },
+    {
+      "funcao_codigo": "24",
+      "funcao": "Comunicações",
+      "empenhado": 6000,
+      "liquidado": 6000,
+      "pago": 6000
+    }
+  ],
+  "total_sem_intra": {
+    "empenhado": 97942994.39,
+    "liquidado": 94124590.06,
+    "pago": 92677949.51
+  },
+  "intraorcamentarias": {
+    "empenhado": 8210391.96,
+    "liquidado": 8210391.93,
+    "pago": 7814519.2
+  },
+  "natureza_destaques": {
+    "fonte": "f-siconfi-dca-2025-id",
+    "contas": [
+      {
+        "conta": "3.1.90.01.00",
+        "descricao": "Aposentadorias do regime próprio dos servidores",
+        "liquidado": 11527865.28
+      },
+      {
+        "conta": "3.2.00.00.00",
+        "descricao": "Juros e encargos da dívida",
+        "liquidado": 2285215.04
+      },
+      {
+        "conta": "4.6.00.00.00",
+        "descricao": "Amortização da dívida",
+        "liquidado": 2146885.05
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+# Atualiza os dados e publica o site todos os dias.
+#
+# Por que assim:
+# - A coleta roda no horário agendado (e quando alguém dispara à mão). Num push de código,
+#   só testa, monta e publica com os dados que já estão no repositório.
+# - Os dados coletados entram como commit: o histórico do Git é a prova de quando cada
+#   informação mudou (ARQUITETURA.md, decisões 3 e 11).
+# - Se um teste ou a validação dos dados falhar, nada é publicado e a execução fica vermelha.
+# - A publicação no Cloudflare só acontece depois que os segredos CLOUDFLARE_API_TOKEN e
+#   CLOUDFLARE_ACCOUNT_ID forem cadastrados no repositório.
+
+name: Atualizar e publicar
+
+on:
+  schedule:
+    - cron: "30 10 * * *"   # 7h30 em Brasília, todos os dias
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-e-publicar
+  cancel-in-progress: false
+
+env:
+  PROJETO_PAGES: ${{ vars.PROJETO_PAGES }}
+  TEM_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar dados
+        if: github.event_name != 'push'
+        run: |
+          ano=$(date +%Y)
+          python scripts/coletar_licitacon.py
+          python scripts/coletar_empenhos.py "$ano"
+          python scripts/coletar_empenhos.py "$((ano - 1))"
+          python scripts/coletar_cnpj.py --max 200
+          if [ "$(date +%d)" = "01" ]; then python scripts/coletar_siconfi.py "$((ano - 1))"; fi
+
+      - name: Testar
+        run: python -m unittest discover -s testes -v
+
+      - name: Montar o site
+        run: python scripts/construir_site.py
+
+      - name: Guardar os dados coletados
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "coleta-automatica"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados bruto
+          if git diff --cached --quiet; then
+            echo "Nenhum dado mudou."
+          else
+            git commit -m "Atualiza dados: coleta automática de $(date +%d/%m/%Y)"
+            git push
+          fi
+
+      - name: Publicar no Cloudflare Pages
+        if: env.TEM_CLOUDFLARE == 'true' && env.PROJETO_PAGES != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@4 pages project create "$PROJETO_PAGES" --production-branch=main || true
+          npx --yes wrangler@4 pages deploy site --project-name="$PROJETO_PAGES" --branch=main --commit-dirty=true
+
+      - name: Avisar que falta configurar o Cloudflare
+        if: env.TEM_CLOUDFLARE != 'true' || env.PROJETO_PAGES == ''
+        run: echo "::warning::Site montado, mas não publicado. Falta cadastrar CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID (segredos) e PROJETO_PAGES (variável)."

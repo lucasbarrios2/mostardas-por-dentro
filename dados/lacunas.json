@@ -1,0 +1,170 @@
+[
+  {
+    "id": "encargos-especiais",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "O que está dentro dos R$ 19,1 milhões de \"encargos especiais\" de 2025",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o detalhamento das despesas liquidadas em 2025 na função 28 (Encargos Especiais), subfunção 846, por natureza de despesa e por ação orçamentária, informando quanto corresponde a aposentadorias e pensões do regime próprio, a juros e amortização da dívida e a outras despesas."
+  },
+  {
+    "id": "camara-troca-vereador",
+    "orgao": "camara",
+    "destino": "camara",
+    "status": "aberta",
+    "descricao": "Quando e por que mudou a composição da Câmara",
+    "pergunta": "Com base na Lei 12.527/2011, solicito cópia dos atos de afastamento, licença ou renúncia do vereador Jorge Amaro de Souza Borges e de posse do suplente José Manoel da Costa Araújo, com as datas, o fundamento legal e a ordem de suplência aplicada."
+  },
+  {
+    "id": "camara-comissoes",
+    "orgao": "camara",
+    "destino": "camara",
+    "status": "aberta",
+    "descricao": "Quem compõe as cinco comissões permanentes em 2026",
+    "pergunta": "Com base na Lei 12.527/2011, solicito a composição atual das cinco comissões permanentes da Câmara, com titulares e suplentes, e o ato que as constituiu para 2026."
+  },
+  {
+    "id": "camara-subsidio-lei",
+    "orgao": "camara",
+    "destino": "camara",
+    "status": "aberta",
+    "descricao": "Qual lei fixou o salário dos vereadores para 2025–2028",
+    "pergunta": "Com base na Lei 12.527/2011, solicito cópia da lei ou resolução que fixou os subsídios dos vereadores para a legislatura 2025–2028, com os valores de 2025 e 2026, e da Lei nº 5.131 citada na tabela de padrão remuneratório de 2026."
+  },
+  {
+    "id": "camara-servidores",
+    "orgao": "camara",
+    "destino": "camara",
+    "status": "aberta",
+    "descricao": "Quantos servidores a Câmara tem",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o número de servidores da Câmara em 30/09/2026, separado por tipo de vínculo (efetivo, cargo em comissão, contrato), com cargo e remuneração bruta de cada um."
+  },
+  {
+    "id": "camara-reforma",
+    "orgao": "camara",
+    "destino": "camara",
+    "status": "aberta",
+    "descricao": "Quanto custam a reforma da sede e o aluguel provisório",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o valor contratado e o prazo da reforma da sede da Câmara, o valor mensal do aluguel do imóvel da Rua Bento Gonçalves, 770, e o local onde as sessões estão sendo realizadas durante a reforma."
+  },
+  {
+    "id": "comdica-composicao",
+    "orgao": "comdica",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "O Conselho dos Direitos da Criança está funcionando?",
+    "pergunta": "Com base na Lei 12.527/2011, solicito a composição atual do Conselho Municipal dos Direitos da Criança e do Adolescente (COMDICA), o ato de nomeação posterior a 24/04/2025, as atas de 2025 e 2026 e o calendário de reuniões."
+  },
+  {
+    "id": "cacs-atas",
+    "orgao": "cacs-fundeb",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Atas e pareceres do conselho que fiscaliza o Fundeb",
+    "pergunta": "Com base na Lei 12.527/2011, solicito as atas e os pareceres do Conselho de Acompanhamento e Controle Social do Fundeb de 2023 a 2026, previstos na Lei Municipal 4.222/2021, e informação sobre a composição do mandato que começa em 2027."
+  },
+  {
+    "id": "cae-mandato",
+    "orgao": "cae",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Mandato e pareceres do conselho da merenda",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o ato de nomeação vigente do Conselho de Alimentação Escolar, esclarecendo o período do mandato (a portaria indica 01/02/2023 a 31/01/2026 e o cadastro do FNDE, 25/01/2023 a 25/01/2027), e os pareceres sobre a execução do PNAE de 2024 e 2025."
+  },
+  {
+    "id": "cms-atas",
+    "orgao": "cons-saude",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Atas do Conselho de Saúde de 2025 e 2026",
+    "pergunta": "Com base na Lei 12.527/2011, solicito as atas das reuniões do Conselho Municipal de Saúde de 2025 e 2026, o calendário de reuniões e informação sobre a atualização do cadastro do conselho no SIACS, cuja última recomposição registrada é de 2015."
+  },
+  {
+    "id": "conselhos-sem-sinal",
+    "orgao": null,
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Conselhos sem sinal recente de funcionamento",
+    "pergunta": "Com base na Lei 12.527/2011, solicito, para os conselhos municipais da Pessoa Idosa, de Desenvolvimento Rural, do Patrimônio Histórico e Cultural, de Habitação, de Trânsito e de Desenvolvimento (COMUDE), a composição atual, a data da última reunião e a respectiva ata."
+  },
+  {
+    "id": "ct-plantao",
+    "orgao": "conselho-tutelar",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Horário e plantão do Conselho Tutelar",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o horário de atendimento do Conselho Tutelar, o telefone do plantão de 24 horas e a escala de sobreaviso vigente. Informo também que a página oficial do Conselho Tutelar ainda lista os conselheiros eleitos em 2019."
+  },
+  {
+    "id": "subsidios-executivo",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Quanto ganham o prefeito, o vice e os secretários",
+    "pergunta": "Com base na Lei 12.527/2011, solicito os valores mensais dos subsídios do prefeito, do vice-prefeito e dos secretários municipais em 2025 e 2026 e cópia das leis que os fixaram, incluindo as Leis 4.764/2023 e 5.133/2025."
+  },
+  {
+    "id": "servidores-prefeitura",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Quantos servidores a Prefeitura tem",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o número de servidores da Prefeitura em 30/09/2026, por tipo de vínculo (efetivo, cargo em comissão, contrato temporário) e por secretaria."
+  },
+  {
+    "id": "titular-financas",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Quem é o titular da Secretaria de Finanças",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o nome do titular da Secretaria Municipal de Finanças e cópia do ato de nomeação ou designação vigente."
+  },
+  {
+    "id": "pastas-acumuladas",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Secretarias comandadas por quem já chefia outra pasta",
+    "pergunta": "Com base na Lei 12.527/2011, solicito informar se há previsão de nomear titulares próprios para a Secretaria Geral de Governo e para a Secretaria de Meio Ambiente, hoje sob responsabilidade dos secretários de Administração e de Planejamento, e cópia do ato de nomeação do secretário de Coordenação e Planejamento."
+  },
+  {
+    "id": "estrutura-atual",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Lei de estrutura e organograma atuais",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o texto consolidado da Lei 1.472/2000, que organiza a estrutura administrativa, a íntegra da Lei 4.335/2021 e o organograma atual da Prefeitura."
+  },
+  {
+    "id": "horario-atendimento",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Qual é o horário oficial de atendimento",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o horário oficial de atendimento ao público da Prefeitura e o ato que o fixa, já que o site informa 7h às 13h e a Ouvidoria e o Portal da Transparência informam 8h às 11h30 e 13h às 16h30."
+  },
+  {
+    "id": "cras-endereco",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Onde funciona o CRAS hoje",
+    "pergunta": "Com base na Lei 12.527/2011, solicito o endereço atual de funcionamento do CRAS e o prazo previsto para a nova sede, se houver."
+  },
+  {
+    "id": "carta-servicos",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "Carta de Serviços desatualizada",
+    "pergunta": "Com base na Lei 12.527/2011, solicito a versão atualizada da Carta de Serviços ao Usuário prevista no art. 7º da Lei 13.460/2017. A versão publicada no site é de março de 2023."
+  },
+  {
+    "id": "consorcios",
+    "orgao": "prefeitura",
+    "destino": "prefeitura",
+    "status": "aberta",
+    "descricao": "De quais consórcios o município participa",
+    "pergunta": "Com base na Lei 12.527/2011, solicito a relação dos consórcios públicos de que o Município participa em 2026 e os valores de rateio pagos em 2025 e 2026."
+  }
+]

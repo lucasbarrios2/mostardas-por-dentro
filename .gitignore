@@ -1,0 +1,11 @@
+# Cópias brutas com dados pessoais (CPF completo, nomes de quem recebe auxílio) ou grandes demais.
+# O que fica versionado é o manifesto de cada coleta: URL, data do arquivo e SHA-256.
+bruto/tce-rs/licitacon/*.zip
+bruto/tce-rs/empenhos/*.csv.gz
+bruto/tce-rs/empenhos/*.parcial
+# Saídas geradas pelo build
+site/
+saida/
+__pycache__/
+*.pyc
+.DS_Store

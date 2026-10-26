@@ -1,0 +1,16 @@
+
+{ "ele" : "619", "t" : "1", "f" : "o", "sup" : "n", "tpabr" : "mu", "cdabr" : "87513", "dg" : "29/09/2026", "hg" : "19:29:53", "idg" : "466559", "dt" : "06/10/2024", "ht" : "19:21:42", "dv" : "s", "tf" : "s", "and" : "f", "esae" : "n", "mnae" : [  ], "carg" : [ 
+{ "cd" : "11", "nmn" : "Prefeito", "nmm" : "Prefeito", "nmf" : "Prefeita", "nv" : "1", "fed" : [ 
+{ "n" : "100", "sg" : "PSDB/CIDADANIA", "nm" : "Federação PSDB CIDADANIA", "com" : "PSDB/CIDADANIA", "npar" : [ "23", "45" ] }, 
+{ "n" : "102", "sg" : "PSOL/REDE", "nm" : "Federação PSOL REDE", "com" : "PSOL/REDE", "npar" : [ "18", "50" ] } ], "agr" : [ 
+{ "n" : "210001701399", "nm" : "Gratidão por Nossa Terra", "tp" : "c", "com" : "CIDADANIA / PSDB / PDT", "tvtn" : "2838", "tvan" : "2838", "par" : [ 
+{ "n" : "45", "sg" : "PSDB", "nm" : "Partido da Social Democracia Brasileira", "nfed" : "100", "tvtn" : "2838", "tvan" : "2838", "cand" : [ 
+{ "n" : "45", "sqcand" : "210001957418", "nm" : "MARNE MATEUS VITORINO DE SOUZA", "nmu" : "MARNE VITORINO", "dt" : "22/05/1963", "dvt" : "Válido", "seq" : "692", "e" : "n", "st" : "Não eleito", "vap" : "2838", "pvap" : "39,23", "pvapn" : "39,231407244", "vs" : [ 
+{ "tp" : "v", "sqcand" : "210001957419", "nm" : "ESTELA MARIS TEIXEIRA COSTA", "nmu" : "ESTELA MARIS", "sgp" : "PDT" } ] } ] } ] }, 
+{ "n" : "210001708923", "nm" : "UNIDOS POR MOSTARDAS", "tp" : "c", "com" : "PP / MDB", "tvtn" : "4396", "tvan" : "4396", "par" : [ 
+{ "n" : "11", "sg" : "PP", "nm" : "PROGRESSISTAS", "nfed" : "", "tvtn" : "4396", "tvan" : "4396", "cand" : [ 
+{ "n" : "11", "sqcand" : "210002020151", "nm" : "GILNEI JOSÉ NAZARETH DE SOUZA", "nmu" : "GILNEI NAZARETH", "dt" : "23/03/1968", "dvt" : "Válido", "seq" : "148", "e" : "s", "st" : "Eleito", "vap" : "4396", "pvap" : "60,77", "pvapn" : "60,768592756", "vs" : [ 
+{ "tp" : "v", "sqcand" : "210002020152", "nm" : "OTONIEL DA SILVA ARAUJO", "nmu" : "TONI ARAÚJO", "sgp" : "MDB" } ] } ] } ] } ] } ], "s" : 
+{ "ts" : "31", "st" : "31", "pst" : "100,00", "pstn" : "100", "snt" : "0", "psnt" : "0,00", "psntn" : "0", "si" : "31", "psi" : "100,00", "psin" : "100", "sni" : "0", "psni" : "0,00", "psnin" : "0", "sa" : "31", "psa" : "100,00", "psan" : "100", "sna" : "0", "psna" : "0,00", "psnan" : "0" }, "e" : 
+{ "te" : "9363", "est" : "9363", "pest" : "100,00", "pestn" : "100", "esnt" : "0", "pesnt" : "0,00", "pesntn" : "0", "esi" : "9363", "pesi" : "100,00", "pesin" : "100", "esni" : "0", "pesni" : "0,00", "pesnin" : "0", "esa" : "9363", "pesa" : "100,00", "pesan" : "100", "esna" : "0", "pesna" : "0,00", "pesnan" : "0", "c" : "7564", "pc" : "80,79", "pcn" : "80,786072840", "a" : "1799", "pa" : "19,21", "pan" : "19,213927160" }, "v" : 
+{ "tv" : "7564", "vvc" : "7234", "pvvc" : "95,64", "pvvcn" : "95,637228979", "vv" : "7234", "pvv" : "100,00", "pvvn" : "100", "vnom" : "7234", "pvnom" : "100,00", "pvnomn" : "100", "van" : "0", "pvan" : "0,00", "pvann" : "0", "vansj" : "0", "pvansj" : "0,00", "pvansjn" : "0", "vb" : "161", "pvb" : "2,13", "pvbn" : "2,128503437", "tvn" : "169", "ptvn" : "2,23", "ptvnn" : "2,234267583", "vn" : "169", "pvn" : "100,00", "pvnn" : "100", "vnt" : "0", "pvnt" : "0,00", "pvntn" : "0", "vsan" : "0", "vscv" : "0" } }
