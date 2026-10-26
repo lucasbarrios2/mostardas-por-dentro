@@ -40,7 +40,9 @@ python3 scripts/construir_site.py             # monta o site em site/
 
 ## Configurar a publicação no Cloudflare (uma vez)
 
-1. No Cloudflare, crie um token em **My Profile → API Tokens → Create Token → Custom token**. Dê só a permissão **Account → Cloudflare Pages → Edit**.
+1. Abra [este link de criação de token](https://dash.cloudflare.com/profile/api-tokens?permissionGroupKeys=%5B%7B%22key%22%3A%22page%22%2C%22type%22%3A%22edit%22%7D%5D&accountId=%2A&zoneId=all&name=Mostardas%20por%20Dentro%20-%20GitHub%20Actions).
+   Ele já vem com a única permissão necessária (**Cloudflare Pages → Edit**). Em **Account Resources**, deixe só a conta que vai hospedar o site e crie o token.
+   O ID da conta aparece em **Workers & Pages**, na coluna da direita.
 2. Cadastre o token e o ID da conta como segredos do repositório:
 
 ```bash
