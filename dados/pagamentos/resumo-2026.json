@@ -637,13 +637,14 @@
     "emissor": "TCE-RS (dados informados pelo próprio órgão)",
     "tipo": "dados-oficiais",
     "url": "https://dados.tce.rs.gov.br/dataset/despesa-orcamentaria-por-empenhos-2026",
-    "consultado_em": "2026-10-26",
+    "consultado_em": "2026-11-13",
     "copia": {
       "url": "https://dados.tce.rs.gov.br/dados/municipal/empenhos/2026.csv.zip",
-      "last_modified": "Sun, 04 Oct 2026 09:06:19 GMT",
+      "last_modified": "Sun, 08 Nov 2026 09:11:48 GMT",
+      "sha256_arquivo_estadual": "9ce28fe03fb43ab0bb8c512f5d3f6b4021a1e5e8a1017f3c62263b40ade11068",
+      "linhas_mostardas": 13555,
       "arquivo": "bruto/tce-rs/empenhos/mostardas-2026.csv.gz",
-      "sha256_filtrado": "9b02757f95fd4477cae0039cb9cc2f24d9e1099962807d6f5160b3cc74201645",
-      "coletado_em": "2026-10-26"
+      "coletado_em": "2026-11-13"
     }
   }
 }
