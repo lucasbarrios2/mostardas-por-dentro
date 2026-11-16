@@ -4,36 +4,36 @@
   "emissor": "TCE-RS (dados informados pelo próprio órgão)",
   "tipo": "dados-oficiais",
   "url": "https://dados.tce.rs.gov.br/dataset/licitacoes-pm-de-mostardas",
-  "consultado_em": "2026-11-15",
+  "consultado_em": "2026-11-16",
   "copia": {
     "arquivos": [
       {
         "url": "https://dados.tce.rs.gov.br/dados/licitacon/licitacao/orgao/52400.csv.zip",
         "arquivo": "bruto/tce-rs/licitacon/licitacao-52400.csv.zip",
-        "sha256": "bbdaa2a5622ee618d5f40f5368ffa8ee2c50f455648fc1e92d56baa5c782b2bf",
-        "bytes": 4646085,
-        "last_modified": "Mon, 09 Nov 2026 02:06:41 GMT"
+        "sha256": "61e734b1df02e610367b27702372b1a6e93ff195af5e77f4f4f0558462d4c917",
+        "bytes": 4652199,
+        "last_modified": "Mon, 16 Nov 2026 02:02:38 GMT"
       },
       {
         "url": "https://dados.tce.rs.gov.br/dados/licitacon/contrato/orgao/52400.csv.zip",
         "arquivo": "bruto/tce-rs/licitacon/contrato-52400.csv.zip",
-        "sha256": "d7a40e881b2ddcf9af6763fc04f59662219ad1741b1d78fdaaaf4d4d031d5867",
-        "bytes": 1230092,
-        "last_modified": "Mon, 09 Nov 2026 01:59:23 GMT"
+        "sha256": "81be75273287572fa522180b7fcd241c9c067c85ff0544e47150ff97bfdadcec",
+        "bytes": 1231301,
+        "last_modified": "Mon, 16 Nov 2026 01:55:33 GMT"
       },
       {
         "url": "https://dados.tce.rs.gov.br/dados/licitacon/licitacao/orgao/52401.csv.zip",
         "arquivo": "bruto/tce-rs/licitacon/licitacao-52401.csv.zip",
-        "sha256": "959da96364a56f101deb3fc8278832872e870a44b2236a49a1938deb4065d290",
-        "bytes": 193179,
-        "last_modified": "Mon, 09 Nov 2026 02:06:42 GMT"
+        "sha256": "8402ead1871f3eb92d3d42fde9b7c82935435f3a91520eb8b8ae9a6b05582e2a",
+        "bytes": 193748,
+        "last_modified": "Mon, 16 Nov 2026 02:02:38 GMT"
       },
       {
         "url": "https://dados.tce.rs.gov.br/dados/licitacon/contrato/orgao/52401.csv.zip",
         "arquivo": "bruto/tce-rs/licitacon/contrato-52401.csv.zip",
-        "sha256": "a6fdb04693bd9e0ad5d3a8800993de55e3e3852f000935e4ca56cf323bd4c468",
-        "bytes": 76985,
-        "last_modified": "Mon, 09 Nov 2026 01:59:24 GMT"
+        "sha256": "88da05c65fa5e61aa754b5f3c64524632d41a567529b66f5f5a4888ff2d32142",
+        "bytes": 76966,
+        "last_modified": "Mon, 16 Nov 2026 01:55:33 GMT"
       }
     ]
   }
