@@ -21,12 +21,13 @@ import io
 import json
 import pathlib
 import re
-import urllib.request
+import urllib.error
 import sys
 import zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from privacidade import mascarar_cpf_em_nome
+from rede import abrir
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 BRUTO = RAIZ / "bruto" / "tce-rs" / "empenhos"
@@ -45,17 +46,25 @@ def baixar_e_filtrar(ano):
     destino = BRUTO / f"mostardas-{ano}.csv.gz"
     manifesto_p = BRUTO / f"manifesto-{ano}.json"
     anterior = json.loads(manifesto_p.read_text(encoding="utf-8")) if manifesto_p.exists() else {}
-    req = urllib.request.Request(url, method="HEAD")
-    with urllib.request.urlopen(req, timeout=60) as r:
-        modificado = r.headers.get("Last-Modified")
+    try:
+        with abrir(url, metodo="HEAD", timeout=60) as r:
+            modificado = r.headers.get("Last-Modified")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:  # o arquivo do ano novo só aparece no TCE-RS meses depois de janeiro
+            return None, {**anterior, "ausente": True}
+        raise
+    hoje = dt.date.today().isoformat()
     # O extrato com nomes de pessoas físicas não vai para o Git; o que fica versionado é o
-    # manifesto. Se o arquivo estadual não mudou desde a última coleta, não há o que refazer.
+    # manifesto. Se o arquivo estadual não mudou desde a última coleta, não há o que refazer,
+    # mas a verificação fica registrada: é ela que o alarme de frescor confere.
     if anterior.get("last_modified") == modificado and (SAIDA / f"resumo-{ano}.json").exists():
+        anterior["verificado_em"] = hoje
+        manifesto_p.write_text(json.dumps(anterior, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         return None, anterior
     BRUTO.mkdir(parents=True, exist_ok=True)
     temp = BRUTO / f"{ano}.csv.zip.parcial"
     h = hashlib.sha256()
-    with urllib.request.urlopen(url, timeout=600) as r, open(temp, "wb") as f:
+    with abrir(url, timeout=600) as r, open(temp, "wb") as f:
         while bloco := r.read(1 << 20):
             h.update(bloco)
             f.write(bloco)
@@ -72,7 +81,7 @@ def baixar_e_filtrar(ano):
                 n += 1
     temp.unlink()
     manifesto = {"url": url, "last_modified": modificado, "sha256_arquivo_estadual": h.hexdigest(), "linhas_mostardas": n,
-                 "arquivo": str(destino.relative_to(RAIZ)), "coletado_em": dt.date.today().isoformat()}
+                 "arquivo": str(destino.relative_to(RAIZ)), "coletado_em": hoje, "verificado_em": hoje}
     manifesto_p.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return destino, manifesto
 
@@ -161,12 +170,16 @@ def main():
         destino = BRUTO / f"mostardas-{a.ano}.csv.gz"
         destino.write_bytes(pathlib.Path(a.filtrado).read_bytes())
         manifesto = {"url": URL.format(ano=a.ano), "last_modified": a.last_modified, "arquivo": str(destino.relative_to(RAIZ)),
-                     "sha256_filtrado": hashlib.sha256(destino.read_bytes()).hexdigest(), "coletado_em": dt.date.today().isoformat()}
+                     "sha256_filtrado": hashlib.sha256(destino.read_bytes()).hexdigest(), "coletado_em": dt.date.today().isoformat(),
+                     "verificado_em": dt.date.today().isoformat()}
         (BRUTO / f"manifesto-{a.ano}.json").write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     else:
         destino, manifesto = baixar_e_filtrar(a.ano)
         if destino is None:
-            print(f"ok: {a.ano} sem mudança no TCE-RS desde {manifesto.get('last_modified')}; resumo mantido")
+            if manifesto.get("ausente"):
+                print(f"ok: {a.ano} ainda não publicado pelo TCE-RS")
+            else:
+                print(f"ok: {a.ano} sem mudança no TCE-RS desde {manifesto.get('last_modified')}; resumo mantido")
             return
     resumo = resumir(destino, a.ano, manifesto)
     SAIDA.mkdir(parents=True, exist_ok=True)

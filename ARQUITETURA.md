@@ -149,6 +149,20 @@ A decisão 11 previa que, quando entrassem dados transacionais, eles sairiam da 
   - Os dados são informados pelo próprio município e não são analisados pelo TCE-RS.
   - Em 26/10/2026, os pagamentos de 2026 iam só até 27/02/2026.
 
+## Quando uma fonte sai do ar (17/11/2026)
+
+De 27/10 a 12/11/2026, o servidor de dados do TCE-RS não respondeu ao GitHub. Como a coleta era um passo só, a falha dessa fonte parou as outras: nada foi coletado nem montado por 17 dias. Desde então:
+
+- **Cada fonte tem sua etapa** na automação, que não derruba as demais. O site segue publicando com o último dado bom de cada fonte, e cada página já mostra a data do arquivo usado.
+- **Erros de rede têm novas tentativas** antes de desistir (`scripts/rede.py`: 20 s, 1 min e 3 min). Isso resolve oscilações de minutos, não quedas longas.
+- **O alarme é o frescor** (`scripts/conferir_frescor.py`). A execução fica vermelha quando uma fonte passa do prazo:
+  - LicitaCon: 3 dias;
+  - empresas e sócios: 7 dias;
+  - pagamentos: 7 dias desde a última verificação.
+
+  Uma queda de uma noite não pinta nada de vermelho; uma fonte parada por dias, sim.
+- **O manifesto de pagamentos registra cada verificação** (`verificado_em`), mesmo quando o arquivo do TCE-RS não mudou. Sem isso, não haveria como saber se a fonte foi consultada.
+
 ## Próximos passos, e quando fazer cada um
 
 - **Atualização automática diária** dos coletores e da página: agora, porque os dados de compras mudam quase todo dia.

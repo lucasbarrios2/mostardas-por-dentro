@@ -13,7 +13,9 @@ import json
 import pathlib
 import sys
 import urllib.parse
-import urllib.request
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from rede import abrir  # noqa: E402
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 IBGE = "4312500"
@@ -23,7 +25,7 @@ COLUNAS = {"Despesas Empenhadas": "empenhado", "Despesas Liquidadas": "liquidado
 
 def baixar(ano, anexo):
     url = API + "?" + urllib.parse.urlencode({"an_exercicio": ano, "no_anexo": anexo, "id_ente": IBGE})
-    with urllib.request.urlopen(url, timeout=60) as r:
+    with abrir(url, timeout=60) as r:
         corpo = r.read()
     destino = RAIZ / "bruto" / "siconfi" / f"dca-{ano}-{anexo.replace(' ', '-').lower()}.json"
     destino.parent.mkdir(parents=True, exist_ok=True)

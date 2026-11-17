@@ -1,11 +1,14 @@
 # Atualiza os dados e publica o site todos os dias.
 #
 # Por que assim:
-# - A coleta roda no horário agendado (e quando alguém dispara à mão). Num push de código,
-#   só testa, monta e publica com os dados que já estão no repositório.
+# - Cada fonte é coletada numa etapa própria, que não derruba as outras se falhar. De 27/10 a
+#   12/11/2026, o servidor do TCE-RS não respondeu e, com a coleta num passo só, nenhuma fonte
+#   foi atualizada. Agora o site segue publicando com o último dado bom de cada fonte.
+# - O alarme é o frescor (scripts/conferir_frescor.py): a execução fica vermelha quando uma fonte
+#   passa do prazo, e não por uma oscilação de uma noite.
 # - Os dados coletados entram como commit: o histórico do Git é a prova de quando cada
 #   informação mudou (ARQUITETURA.md, decisões 3 e 11).
-# - Se um teste ou a validação dos dados falhar, nada é publicado e a execução fica vermelha.
+# - Se um teste ou a validação dos dados falhar, nada é publicado.
 # - A publicação no Cloudflare só acontece depois que os segredos CLOUDFLARE_API_TOKEN e
 #   CLOUDFLARE_ACCOUNT_ID forem cadastrados no repositório.
 
@@ -28,27 +31,42 @@ concurrency:
 env:
   PROJETO_PAGES: ${{ vars.PROJETO_PAGES }}
   TEM_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+  COLETAR: ${{ github.event_name != 'push' }}
 
 jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
-      - name: Coletar dados
-        if: github.event_name != 'push'
+      - name: Coletar licitações e contratos (TCE-RS)
+        if: env.COLETAR == 'true'
+        continue-on-error: true
+        run: python scripts/coletar_licitacon.py
+
+      - name: Coletar pagamentos (TCE-RS)
+        if: env.COLETAR == 'true'
+        continue-on-error: true
         run: |
           ano=$(date +%Y)
-          python scripts/coletar_licitacon.py
-          python scripts/coletar_empenhos.py "$ano"
           python scripts/coletar_empenhos.py "$((ano - 1))"
-          python scripts/coletar_cnpj.py --max 200
-          if [ "$(date +%d)" = "01" ]; then python scripts/coletar_siconfi.py "$((ano - 1))"; fi
+          python scripts/coletar_empenhos.py "$ano"
+
+      - name: Coletar empresas e sócios (Receita Federal)
+        if: env.COLETAR == 'true'
+        continue-on-error: true
+        run: python scripts/coletar_cnpj.py --max 200
+
+      - name: Coletar gastos por área (Tesouro), no dia 1º de cada mês
+        if: env.COLETAR == 'true'
+        continue-on-error: true
+        run: |
+          if [ "$(date +%d)" = "01" ]; then python scripts/coletar_siconfi.py "$(( $(date +%Y) - 1 ))"; else echo "Só no dia 1º."; fi
 
       - name: Testar
         run: python -m unittest discover -s testes -v
@@ -57,7 +75,7 @@ jobs:
         run: python scripts/construir_site.py
 
       - name: Guardar os dados coletados
-        if: github.event_name != 'push'
+        if: env.COLETAR == 'true'
         run: |
           git config user.name "coleta-automatica"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -81,3 +99,7 @@ jobs:
       - name: Avisar que falta configurar o Cloudflare
         if: env.TEM_CLOUDFLARE != 'true' || env.PROJETO_PAGES == ''
         run: echo "::warning::Site montado, mas não publicado. Falta cadastrar CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID (segredos) e PROJETO_PAGES (variável)."
+
+      - name: Conferir se os dados estão em dia
+        if: env.COLETAR == 'true'
+        run: python scripts/conferir_frescor.py

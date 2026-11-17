@@ -18,12 +18,12 @@ import hashlib
 import io
 import json
 import pathlib
-import urllib.request
 import sys
 import zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from privacidade import mascarar_cpf_em_nome, mascarar_cpf_rotulado, mascarar_documento
+from rede import abrir
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 BRUTO = RAIZ / "bruto" / "tce-rs" / "licitacon"
@@ -53,7 +53,7 @@ def baixar(tipo, orgao, local):
     if local:
         corpo = (pathlib.Path(local) / f"{tipo}-{orgao}.zip").read_bytes()
     else:
-        with urllib.request.urlopen(url, timeout=180) as r:
+        with abrir(url) as r:
             corpo = r.read()
             modificado = r.headers.get("Last-Modified")
     destino.write_bytes(corpo)
